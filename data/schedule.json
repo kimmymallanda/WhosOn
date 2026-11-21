@@ -1,0 +1,75 @@
+{
+  "season": "Spring 2027 (synthetic)",
+  "matches": [
+    {
+      "match_id": "m01",
+      "date": "2027-01-16",
+      "time": "10:00",
+      "home": true,
+      "opponent": "Riverside Racquets"
+    },
+    {
+      "match_id": "m02",
+      "date": "2027-01-23",
+      "time": "10:00",
+      "home": false,
+      "opponent": "Oak Hill TC"
+    },
+    {
+      "match_id": "m03",
+      "date": "2027-01-30",
+      "time": "10:00",
+      "home": true,
+      "opponent": "Lakeview Aces"
+    },
+    {
+      "match_id": "m04",
+      "date": "2027-02-06",
+      "time": "10:00",
+      "home": false,
+      "opponent": "Northside Net"
+    },
+    {
+      "match_id": "m05",
+      "date": "2027-02-13",
+      "time": "10:00",
+      "home": true,
+      "opponent": "Cedar Park"
+    },
+    {
+      "match_id": "m06",
+      "date": "2027-02-20",
+      "time": "10:00",
+      "home": false,
+      "opponent": "Riverside Racquets"
+    },
+    {
+      "match_id": "m07",
+      "date": "2027-02-27",
+      "time": "10:00",
+      "home": true,
+      "opponent": "Oak Hill TC"
+    },
+    {
+      "match_id": "m08",
+      "date": "2027-03-06",
+      "time": "10:00",
+      "home": false,
+      "opponent": "Lakeview Aces"
+    },
+    {
+      "match_id": "m09",
+      "date": "2027-03-13",
+      "time": "10:00",
+      "home": true,
+      "opponent": "Northside Net"
+    },
+    {
+      "match_id": "m10",
+      "date": "2027-03-20",
+      "time": "10:00",
+      "home": false,
+      "opponent": "Cedar Park"
+    }
+  ]
+}

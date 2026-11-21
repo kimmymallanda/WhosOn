@@ -1,0 +1,121 @@
+// ALTA regular-season lineup rules R1-R7. A JavaScript copy of src/rules_checker.py for n8n Code nodes.
+// n8n/build_nodes.py prepends ROSTER, CONFIG and HISTORY from the project's JSON files.
+// tests/test_n8n_nodes.py checks that this gives the same answers as the Python version.
+
+const pairKey = (pair) => [...pair].sort().join('|');
+
+function buildState(history) {
+  const s = { lastLine: {}, pairLast: {}, pairRecord: {}, played: {} };
+  for (const m of history.matches || []) {
+    const results = m.results || [];
+    m.lineup.forEach((pair, i) => {
+      const line = i + 1;
+      for (const pid of pair) s.played[pid] = (s.played[pid] || 0) + 1;
+      if (m.provisional) return; // counts as played, but positions are tracked from the previous legal lineup
+      const key = pairKey(pair);
+      s.pairLast[key] = line;
+      const rec = s.pairRecord[key] || (s.pairRecord[key] = [0, 0]);
+      const won = i < results.length ? results[i] : null;
+      if (won === true) rec[0] += 1;
+      else if (won === false) rec[1] += 1;
+      for (const pid of pair) s.lastLine[pid] = line;
+    });
+  }
+  return s;
+}
+
+function pairStatus(state, pair) {
+  const [w, l] = state.pairRecord[pairKey(pair)] || [0, 0];
+  return w > l ? 'winning' : l > w ? 'losing' : 'none';
+}
+
+function allowedLinesForPlayer(pid, state, config) {
+  const all = Array.from({ length: config.lines }, (_, i) => i + 1);
+  if (!(pid in state.lastLine)) return all;
+  return all.filter((x) => Math.abs(x - state.lastLine[pid]) <= config.individual_move_limit);
+}
+
+function allowedLinesForPair(pair, state, config) {
+  let ok = Array.from({ length: config.lines }, (_, i) => i + 1);
+  for (const pid of pair) {
+    const allowed = allowedLinesForPlayer(pid, state, config);
+    ok = ok.filter((x) => allowed.includes(x));
+  }
+  const key = pairKey(pair);
+  if (key in state.pairLast) ok = ok.filter((x) => Math.abs(x - state.pairLast[key]) <= config.pair_move_limit);
+  return ok;
+}
+
+function checkLineup(lineup, roster, config, available, state) {
+  const v = [];
+  const players = {};
+  for (const p of roster.players) players[p.id] = p;
+  const name = (pid) => (players[pid] ? players[pid].name : pid);
+
+  // R1: right number of lines, right number of players on each
+  if (lineup.length !== config.lines) v.push({ rule_id: 'R1', message: `Expected ${config.lines} lines, got ${lineup.length}.` });
+  lineup.forEach((pair, i) => {
+    if (pair.length !== config.players_per_line) {
+      v.push({ rule_id: 'R1', message: `Line ${i + 1} needs ${config.players_per_line} players, got ${pair.length}.` });
+    }
+  });
+  const everyone = lineup.flat();
+
+  // R2: everyone is on the roster
+  for (const pid of everyone) if (!players[pid]) v.push({ rule_id: 'R2', message: `${pid} is not on the roster.` });
+
+  // R3: one line per player
+  const seen = new Set();
+  for (const pid of everyone) {
+    if (seen.has(pid)) v.push({ rule_id: 'R3', message: `${name(pid)} is in more than one line.` });
+    seen.add(pid);
+  }
+
+  // R4: everyone is confirmed available
+  for (const pid of new Set(everyone)) {
+    if (players[pid] && !available.has(pid)) v.push({ rule_id: 'R4', message: `${name(pid)} is not confirmed available.` });
+  }
+
+  // R5: pair movement, from the last line the pair played together
+  const moves = [];
+  lineup.forEach((pair, i) => {
+    const line = i + 1;
+    const key = pairKey(pair);
+    if (pair.length === 2 && key in state.pairLast) {
+      const last = state.pairLast[key];
+      moves.push([pair, last, line]);
+      if (Math.abs(line - last) > config.pair_move_limit) {
+        v.push({
+          rule_id: 'R5',
+          message: `${name(pair[0])} and ${name(pair[1])} last played together at line ${last}; a pair may move only ${config.pair_move_limit} line, so line ${line} is not allowed.`,
+        });
+      }
+    }
+  });
+
+  // R6: individual movement, from the player's own last legal line
+  lineup.forEach((pair, i) => {
+    const line = i + 1;
+    for (const pid of pair) {
+      if (pid in state.lastLine && Math.abs(line - state.lastLine[pid]) > config.individual_move_limit) {
+        v.push({
+          rule_id: 'R6',
+          message: `${name(pid)} last played line ${state.lastLine[pid]}; a player may move only ${config.individual_move_limit} lines, so line ${line} is not allowed.`,
+        });
+      }
+    }
+  });
+
+  // R7: sandbagging. A winning pair moved down while a losing pair moved up.
+  const down = moves.filter(([p, a, b]) => b > a && pairStatus(state, p) === 'winning');
+  const up = moves.filter(([p, a, b]) => b < a && pairStatus(state, p) === 'losing');
+  if (down.length && up.length) {
+    const w = down[0];
+    const l = up[0];
+    v.push({
+      rule_id: 'R7',
+      message: `Sandbagging: winning pair ${name(w[0][0])} and ${name(w[0][1])} moves down (line ${w[1]} to ${w[2]}) while losing pair ${name(l[0][0])} and ${name(l[0][1])} moves up (line ${l[1]} to ${l[2]}).`,
+    });
+  }
+  return v;
+}

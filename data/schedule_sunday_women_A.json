@@ -1,0 +1,13 @@
+{
+  "season": "Spring 2027 (synthetic dates)",
+  "league": "Sunday Women",
+  "_note": "Regular season is weeks 1-6 (ALTA League-Specific Rules). Dates and opponents are made up. Line start times come from data/alta_leagues.json.",
+  "matches": [
+    { "match_id": "w1", "week": 1, "date": "2027-04-11", "home": true,  "opponent": "Riverside Racquets" },
+    { "match_id": "w2", "week": 2, "date": "2027-04-18", "home": false, "opponent": "Lakeview Aces" },
+    { "match_id": "w3", "week": 3, "date": "2027-04-25", "home": false, "opponent": "Oak Hill TC" },
+    { "match_id": "w4", "week": 4, "date": "2027-05-02", "home": true,  "opponent": "Northside Net" },
+    { "match_id": "w5", "week": 5, "date": "2027-05-09", "home": false, "opponent": "Cedar Park" },
+    { "match_id": "w6", "week": 6, "date": "2027-05-16", "home": true,  "opponent": "Riverbend TC" }
+  ]
+}

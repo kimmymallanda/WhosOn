@@ -1,0 +1,15 @@
+{
+  "_note": "Synthetic regular-season history for the demo team. lineup[0] is line 1. results[i] is true if our pair won that line, false if it lost, null if unknown. provisional lineups are not used to track positions.",
+  "matches": [
+    {
+      "match_id": "w1", "week": 1, "provisional": false,
+      "lineup": [["p01","p02"], ["p03","p12"], ["p05","p06"], ["p13","p15"], ["p08","p16"]],
+      "results": [true, true, false, true, false]
+    },
+    {
+      "match_id": "w2", "week": 2, "provisional": false,
+      "lineup": [["p01","p02"], ["p03","p12"], ["p05","p06"], ["p13","p15"], ["p11","p16"]],
+      "results": [true, false, true, false, true]
+    }
+  ]
+}

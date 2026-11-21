@@ -1,0 +1,132 @@
+{
+  "_source": "ALTA General Rules Adult Leagues, Fall 2026 (last revised Spring 2026): League-Specific Rules (pp. 8-11), Teams and Players I.E (roster minimums).",
+  "_how_lines_start": "Lines play two per start slot. Lines 1-2 start at start_times[0], lines 3-4 at start_times[1], line 5 at start_times[2]. A later slot starts as listed or when a court is free, so a listed time is the earliest start. A line can take 1 to 3 hours (captain's note), so a later line can start late.",
+  "_not_covered": "Wheelchair and Run/Roll leagues are not in the documents. Mixed Doubles line composition (which lines are men's, women's or mixed) is not stated in the documents, so line_kinds is null for it.",
+  "leagues": {
+    "Men": {
+      "lines": 5,
+      "day": "Saturday",
+      "start_times": [
+        "09:00",
+        "10:00",
+        "11:00"
+      ],
+      "roster_min": 12,
+      "line_kinds": null
+    },
+    "Sunday Women": {
+      "lines": 5,
+      "day": "Sunday",
+      "start_times": [
+        "13:00",
+        "14:00",
+        "15:00"
+      ],
+      "roster_min": 12,
+      "line_kinds": null
+    },
+    "Thursday Women": {
+      "lines": 5,
+      "day": "Thursday",
+      "start_times": [
+        "09:30",
+        "10:30",
+        "11:30"
+      ],
+      "roster_min": 12,
+      "line_kinds": null
+    },
+    "Mixed Doubles (Winter)": {
+      "lines": 5,
+      "day": "Sunday",
+      "start_times": [
+        "13:00",
+        "14:00",
+        "15:00"
+      ],
+      "roster_min": 12,
+      "line_kinds": null
+    },
+    "Mixed Doubles (Summer)": {
+      "lines": 5,
+      "day": "Saturday",
+      "start_times": [
+        "09:00",
+        "10:00",
+        "11:00"
+      ],
+      "roster_min": 12,
+      "line_kinds": null
+    },
+    "Senior Men": {
+      "lines": 4,
+      "day": "Friday",
+      "start_times": [
+        "18:30",
+        "19:30"
+      ],
+      "roster_min": 10,
+      "line_kinds": null
+    },
+    "Senior Women": {
+      "lines": 4,
+      "day": "Thursday",
+      "start_times": [
+        "18:30",
+        "19:30"
+      ],
+      "roster_min": 10,
+      "line_kinds": null
+    },
+    "Senior Mixed": {
+      "lines": 4,
+      "day": "Saturday",
+      "start_times": [
+        "10:00",
+        "11:00"
+      ],
+      "roster_min": 10,
+      "line_kinds": [
+        "men",
+        "women",
+        "mixed",
+        "mixed"
+      ]
+    },
+    "Senior Day Men": {
+      "lines": 3,
+      "day": "Wednesday",
+      "start_times": [
+        "10:00",
+        "11:00"
+      ],
+      "roster_min": 8,
+      "line_kinds": null
+    },
+    "Senior Day Women": {
+      "lines": 3,
+      "day": "Tuesday",
+      "start_times": [
+        "10:00",
+        "11:00"
+      ],
+      "roster_min": 8,
+      "line_kinds": null
+    }
+  },
+  "levels": {
+    "strongest_first": [
+      "AA",
+      "A",
+      "B",
+      "C"
+    ],
+    "flights": {
+      "AA": 3,
+      "A": 8,
+      "B": 8,
+      "C": 8
+    },
+    "note": "A team's level flight reads like AA-3 or A-5. Lower numbers are stronger: AA-1 is the strongest team and C-8 the weakest, in the order AA-1..AA-3, A-1..A-8, B-1..B-8, C-1..C-8. Order and flight counts confirmed by the captain; the ALTA documents only say AA is the highest level and give flights 1-8 as an example. Rule I.G.5.i: a player added after schedules are posted must have a most recent final level at or below the team's level flight."
+  }
+}

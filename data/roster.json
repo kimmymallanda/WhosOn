@@ -1,0 +1,118 @@
+{
+  "team": "Sample Sunday Women AA-3",
+  "level_flight": "AA-3",
+  "players": [
+    {
+      "id": "p01",
+      "name": "Ava Chen",
+      "level_flight": "AA-3",
+      "side": "ad",
+      "contact": "player01@example.com"
+    },
+    {
+      "id": "p02",
+      "name": "Brooke Patel",
+      "level_flight": "AA-3",
+      "side": "deuce",
+      "contact": "player02@example.com"
+    },
+    {
+      "id": "p03",
+      "name": "Carla Ruiz",
+      "level_flight": "AA-3",
+      "side": "either",
+      "contact": "player03@example.com"
+    },
+    {
+      "id": "p04",
+      "name": "Dana Kim",
+      "level_flight": "A-2",
+      "side": "either",
+      "contact": "player04@example.com"
+    },
+    {
+      "id": "p05",
+      "name": "Ellie Brooks",
+      "level_flight": "AA-3",
+      "side": "either",
+      "contact": "player05@example.com"
+    },
+    {
+      "id": "p06",
+      "name": "Fran Okafor",
+      "level_flight": "AA-3",
+      "side": "either",
+      "contact": "player06@example.com"
+    },
+    {
+      "id": "p07",
+      "name": "Gina Rossi",
+      "level_flight": "A-2",
+      "side": "ad",
+      "contact": "player07@example.com"
+    },
+    {
+      "id": "p08",
+      "name": "Hana Sato",
+      "level_flight": "AA-3",
+      "side": "either",
+      "contact": "player08@example.com"
+    },
+    {
+      "id": "p09",
+      "name": "Isla Moreno",
+      "level_flight": "AA-3",
+      "side": "deuce",
+      "contact": "player09@example.com"
+    },
+    {
+      "id": "p10",
+      "name": "Jess Nguyen",
+      "level_flight": "A-2",
+      "side": "either",
+      "contact": "player10@example.com"
+    },
+    {
+      "id": "p11",
+      "name": "Kara Lewis",
+      "level_flight": "AA-3",
+      "side": "either",
+      "contact": "player11@example.com"
+    },
+    {
+      "id": "p12",
+      "name": "Lena Fischer",
+      "level_flight": "AA-3",
+      "side": "either",
+      "contact": "player12@example.com"
+    },
+    {
+      "id": "p13",
+      "name": "Maya Singh",
+      "level_flight": "AA-3",
+      "side": "either",
+      "contact": "player13@example.com"
+    },
+    {
+      "id": "p14",
+      "name": "Nora Walsh",
+      "level_flight": "A-2",
+      "side": "either",
+      "contact": "player14@example.com"
+    },
+    {
+      "id": "p15",
+      "name": "Priya Shah",
+      "level_flight": "AA-3",
+      "side": "deuce",
+      "contact": "player15@example.com"
+    },
+    {
+      "id": "p16",
+      "name": "Sam Torres",
+      "level_flight": "AA-3",
+      "side": "either",
+      "contact": "player16@example.com"
+    }
+  ]
+}

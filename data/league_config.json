@@ -1,0 +1,29 @@
+{
+  "rules_version": "ALTA General Rules Adult Leagues, Fall 2026 (last revised Spring 2026)",
+  "team": "Sample Sunday Women AA-3",
+  "league": "Sunday Women",
+  "level_flight": "AA-3",
+  "season": "Spring 2027 (synthetic dates)",
+  "lines": 5,
+  "players_per_line": 2,
+  "pair_move_limit": 1,
+  "individual_move_limit": 2,
+  "max_roster_addons": 6,
+  "default_minutes": 20,
+  "warmup_minutes": 10,
+  "line_duration_hours": {
+    "min": 1,
+    "max": 3
+  },
+  "_notes": {
+    "lines": "Copied from data/alta_leagues.json for the team's league. Change league to reuse for another ALTA team.",
+    "pair_move_limit": "Rule III.E: a pair may move up or down only one line from the last legal line played together.",
+    "individual_move_limit": "Rule III.E: a player without her partner may move up or down two lines from her last legal line.",
+    "max_roster_addons": "Rule I.G.5: after schedules are posted, a maximum of six players may be added.",
+    "default_minutes": "Glossary, DEFAULT: a line is defaulted if a pair is not courtside 20 minutes after its scheduled start.",
+    "warmup_minutes": "Rule IV.G: warm-up is limited to 10 minutes.",
+    "line_duration_hours": "Captain's note: a line can take 1 to 3 hours. Used for time-limit risk checks, not an ALTA rule.",
+    "playoffs": "Out of scope for the MVP. Regular season only (movement and sandbagging rules apply only in the regular season).",
+    "level_flight": "Synthetic team at AA-3, the top flight of the highest level. Real teams read like AA-3 or A-5 (see data/alta_leagues.json levels). Used for the sub add-on rule R8."
+  }
+}

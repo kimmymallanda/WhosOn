@@ -1,0 +1,30 @@
+{"player_id": "p01", "match_id": "m02", "text": "I'm in!! can't wait", "label": {"status": "available", "time_window": null, "needs_follow_up": false, "note": "plain yes"}}
+{"player_id": "p02", "match_id": "m02", "text": "Sorry, I have to pass this week", "label": {"status": "unavailable", "time_window": null, "needs_follow_up": false, "note": "polite no"}}
+{"player_id": "p03", "match_id": "m02", "text": "I can't start before 1pm", "label": {"status": "conditional", "time_window": "after 13:00", "needs_follow_up": false, "note": "12-hour time must become 24-hour"}}
+{"player_id": "p04", "match_id": "m02", "text": "❌", "label": {"status": "unavailable", "time_window": null, "needs_follow_up": false, "note": "negative emoji only"}}
+{"player_id": "p05", "match_id": "m02", "text": "yep", "label": {"status": "available", "time_window": null, "needs_follow_up": false, "note": "very short yes"}}
+{"player_id": "p06", "match_id": "m02", "text": "Only if it's doubles, my shoulder's sore", "label": {"status": "conditional", "time_window": null, "needs_follow_up": false, "conditions_contains": "doubles", "note": "format condition plus health detail"}}
+{"player_id": "p07", "match_id": "m02", "text": "I'd love to but I'm at my sister's wedding", "label": {"status": "unavailable", "time_window": null, "needs_follow_up": false, "note": "implied no with a reason"}}
+{"player_id": "p08", "match_id": "m02", "text": "Can do, but I need to be done by 11:30 for pickup", "label": {"status": "conditional", "time_window": "until 11:30", "needs_follow_up": false, "note": "end-time limit"}}
+{"player_id": "p09", "match_id": "m02", "text": "Not sure yet, I'll text you Wednesday", "label": {"status": "unknown", "time_window": null, "needs_follow_up": true, "note": "will decide later"}}
+{"player_id": "p10", "match_id": "m02", "text": "✅", "label": {"status": "available", "time_window": null, "needs_follow_up": false, "note": "positive emoji only"}}
+{"player_id": "p11", "match_id": "m02", "text": "Yes, and I can drive 2 others", "label": {"status": "available", "time_window": null, "needs_follow_up": false, "note": "yes plus extra info"}}
+{"player_id": "p12", "match_id": "m02", "text": "if nobody else can, call me", "label": {"status": "conditional", "time_window": null, "needs_follow_up": false, "conditions_contains": "sub", "note": "backup only; worded differently from the tuning replies"}}
+{"player_id": "p13", "match_id": "m02", "text": "Hmm", "label": {"status": "unknown", "time_window": null, "needs_follow_up": true, "note": "no usable answer"}}
+{"player_id": "p14", "match_id": "m02", "text": "I'm good for the 10am start", "label": {"status": "available", "time_window": null, "needs_follow_up": false, "note": "confirms the match time"}}
+{"player_id": "p15", "match_id": "m02", "text": "Can't do Saturday but Sunday works", "label": {"status": "unavailable", "time_window": null, "needs_follow_up": false, "note": "match is Saturday; the Sunday offer does not change that"}}
+{"player_id": "p16", "match_id": "m02", "text": "Out of town till the 24th", "label": {"status": "unavailable", "time_window": null, "needs_follow_up": false, "note": "match is the 23rd; needs a date check"}}
+{"player_id": "p01", "match_id": "m02", "text": "actually I can play after all", "label": {"status": "available", "time_window": null, "needs_follow_up": false, "note": "changes mind; resolves an earlier no"}}
+{"player_id": "p02", "match_id": "m02", "text": "I can play any time after 3pm", "label": {"status": "conditional", "time_window": "after 15:00", "needs_follow_up": false, "note": "start-time limit in 12-hour form"}}
+{"player_id": "p03", "match_id": "m02", "text": "Yes but I'd prefer to play with Ava", "label": {"status": "available", "time_window": null, "needs_follow_up": false, "note": "a preference does not make it conditional"}}
+{"player_id": "p04", "match_id": "m02", "text": "👎", "label": {"status": "unavailable", "time_window": null, "needs_follow_up": false, "note": "negative emoji only"}}
+{"player_id": "p05", "match_id": "m02", "text": "maybe 50/50", "label": {"status": "unknown", "time_window": null, "needs_follow_up": true, "note": "no concrete condition"}}
+{"player_id": "p06", "match_id": "m02", "text": "Absolutely, as long as it's not raining", "label": {"status": "available", "time_window": null, "needs_follow_up": false, "note": "weather is not something the captain can act on"}}
+{"player_id": "p07", "match_id": "m02", "text": "I can play singles or doubles, whichever you need", "label": {"status": "available", "time_window": null, "needs_follow_up": false, "note": "flexible on format"}}
+{"player_id": "p08", "match_id": "m02", "text": "Can't make it, my daughter has a tournament", "label": {"status": "unavailable", "time_window": null, "needs_follow_up": false, "note": "no with a reason"}}
+{"player_id": "p09", "match_id": "m02", "text": "yes but I might have to leave at 11", "label": {"status": "conditional", "time_window": "until 11:00", "needs_follow_up": false, "note": "hedged end-time limit"}}
+{"player_id": "p10", "match_id": "m02", "text": "Is it away? How far is Oak Hill?", "label": {"status": "unknown", "time_window": null, "needs_follow_up": true, "note": "asks a question instead of answering"}}
+{"player_id": "p11", "match_id": "m02", "text": "I'll be there 💪🎾", "label": {"status": "available", "time_window": null, "needs_follow_up": false, "note": "yes with emoji"}}
+{"player_id": "p12", "match_id": "m02", "text": "No thanks", "label": {"status": "unavailable", "time_window": null, "needs_follow_up": false, "note": "plain no"}}
+{"player_id": "p13", "match_id": "m02", "text": "doubles only please, no singles, but I can play all day", "label": {"status": "conditional", "time_window": null, "needs_follow_up": false, "conditions_contains": "doubles", "note": "format condition; the all-day part is not a time window"}}
+{"player_id": "p14", "match_id": "m02", "text": "I'm free until noon but then I have to run", "label": {"status": "conditional", "time_window": "until 12:00", "needs_follow_up": false, "note": "end-time limit with 'noon'"}}

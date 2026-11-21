@@ -1,0 +1,20 @@
+{"player_id": "p01", "match_id": "m01", "text": "Yes I'm in!", "label": {"status": "available", "time_window": null, "note": null}}
+{"player_id": "p02", "match_id": "m01", "text": "can't, out of town that weekend", "label": {"status": "unavailable", "time_window": null, "note": null}}
+{"player_id": "p03", "match_id": "m01", "text": "maybe if it's after 2", "label": {"status": "conditional", "time_window": "after 14:00", "note": null}}
+{"player_id": "p04", "match_id": "m01", "text": "emergency sub only pls", "label": {"status": "conditional", "time_window": null, "note": "emergency sub only"}}
+{"player_id": "p05", "match_id": "m01", "text": "👍", "label": {"status": "available", "time_window": null, "note": null}}
+{"player_id": "p06", "match_id": "m01", "text": "I can play but only doubles, knee is acting up", "label": {"status": "conditional", "time_window": null, "note": "doubles only"}}
+{"player_id": "p07", "match_id": "m01", "text": "sorry kiddo has a recital, no", "label": {"status": "unavailable", "time_window": null, "note": null}}
+{"player_id": "p08", "match_id": "m01", "text": "def yes unless it rains lol", "label": {"status": "available", "time_window": null, "note": "weather-dependent joke; treat as available"}}
+{"player_id": "p09", "match_id": "m01", "text": "let me check w/ my husband and get back to you", "label": {"status": "unknown", "time_window": null, "note": "needs follow-up"}}
+{"player_id": "p10", "match_id": "m01", "text": "Can play the 10am but have to leave by 12", "label": {"status": "conditional", "time_window": "until 12:00", "note": null}}
+{"player_id": "p11", "match_id": "m01", "text": "yes!! put me in singles if you can", "label": {"status": "available", "time_window": null, "note": "prefers singles"}}
+{"player_id": "p12", "match_id": "m01", "text": "no", "label": {"status": "unavailable", "time_window": null, "note": null}}
+{"player_id": "p13", "match_id": "m01", "text": "I'm in for Sat but not Sunday", "label": {"status": "available", "time_window": null, "note": "match is Saturday"}}
+{"player_id": "p14", "match_id": "m01", "text": "ugh work trip, unless it gets moved", "label": {"status": "unavailable", "time_window": null, "note": "would be available if rescheduled"}}
+{"player_id": "p15", "match_id": "m01", "text": "Count me in. Need matches for playoffs anyway", "label": {"status": "available", "time_window": null, "note": "needs matches for playoff eligibility"}}
+{"player_id": "p16", "match_id": "m01", "text": "Probably? I'll know Thursday", "label": {"status": "unknown", "time_window": null, "note": "needs follow-up Thursday"}}
+{"player_id": "p03", "match_id": "m01", "text": "ok it's after 2 so I'm out, sorry", "label": {"status": "unavailable", "time_window": null, "note": "clarification of earlier conditional"}}
+{"player_id": "p09", "match_id": "m01", "text": "husband says fine, I'm in", "label": {"status": "available", "time_window": null, "note": "resolves earlier unknown"}}
+{"player_id": "p05", "match_id": "m01", "text": "actually sick now, can't make it 😷", "label": {"status": "unavailable", "time_window": null, "note": "late drop"}}
+{"player_id": "p13", "match_id": "m01", "text": "if you're short I can play but I'd rather rest", "label": {"status": "conditional", "time_window": null, "note": "available only if needed"}}

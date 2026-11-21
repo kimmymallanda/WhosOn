@@ -1,0 +1,4833 @@
+{
+  "lineups": [
+    {
+      "case": "Approved lineup",
+      "lineup": [
+        [
+          "p01",
+          "p02"
+        ],
+        [
+          "p03",
+          "p12"
+        ],
+        [
+          "p05",
+          "p06"
+        ],
+        [
+          "p13",
+          "p15"
+        ],
+        [
+          "p08",
+          "p16"
+        ]
+      ],
+      "available": [
+        "p01",
+        "p02",
+        "p03",
+        "p04",
+        "p05",
+        "p06",
+        "p08",
+        "p11",
+        "p12",
+        "p13",
+        "p15",
+        "p16"
+      ]
+    },
+    {
+      "case": "Carla drops (R4)",
+      "lineup": [
+        [
+          "p01",
+          "p02"
+        ],
+        [
+          "p03",
+          "p12"
+        ],
+        [
+          "p05",
+          "p06"
+        ],
+        [
+          "p13",
+          "p15"
+        ],
+        [
+          "p08",
+          "p16"
+        ]
+      ],
+      "available": [
+        "p01",
+        "p02",
+        "p04",
+        "p05",
+        "p06",
+        "p08",
+        "p11",
+        "p12",
+        "p13",
+        "p15",
+        "p16"
+      ]
+    },
+    {
+      "case": "Kara at line 2 (R6)",
+      "lineup": [
+        [
+          "p01",
+          "p02"
+        ],
+        [
+          "p11",
+          "p12"
+        ],
+        [
+          "p05",
+          "p06"
+        ],
+        [
+          "p13",
+          "p15"
+        ],
+        [
+          "p08",
+          "p16"
+        ]
+      ],
+      "available": [
+        "p01",
+        "p02",
+        "p03",
+        "p04",
+        "p05",
+        "p06",
+        "p08",
+        "p11",
+        "p12",
+        "p13",
+        "p15",
+        "p16"
+      ]
+    },
+    {
+      "case": "Dana at line 2 (legal)",
+      "lineup": [
+        [
+          "p01",
+          "p02"
+        ],
+        [
+          "p04",
+          "p12"
+        ],
+        [
+          "p05",
+          "p06"
+        ],
+        [
+          "p13",
+          "p15"
+        ],
+        [
+          "p08",
+          "p16"
+        ]
+      ],
+      "available": [
+        "p01",
+        "p02",
+        "p03",
+        "p04",
+        "p05",
+        "p06",
+        "p08",
+        "p11",
+        "p12",
+        "p13",
+        "p15",
+        "p16"
+      ]
+    },
+    {
+      "case": "Pair moves two lines (R5)",
+      "lineup": [
+        [
+          "p03",
+          "p12"
+        ],
+        [
+          "p05",
+          "p06"
+        ],
+        [
+          "p01",
+          "p02"
+        ],
+        [
+          "p13",
+          "p15"
+        ],
+        [
+          "p08",
+          "p16"
+        ]
+      ],
+      "available": [
+        "p01",
+        "p02",
+        "p03",
+        "p04",
+        "p05",
+        "p06",
+        "p08",
+        "p11",
+        "p12",
+        "p13",
+        "p15",
+        "p16"
+      ]
+    },
+    {
+      "case": "Sandbagging (R7)",
+      "lineup": [
+        [
+          "p03",
+          "p12"
+        ],
+        [
+          "p01",
+          "p02"
+        ],
+        [
+          "p05",
+          "p06"
+        ],
+        [
+          "p08",
+          "p16"
+        ],
+        [
+          "p13",
+          "p15"
+        ]
+      ],
+      "available": [
+        "p01",
+        "p02",
+        "p03",
+        "p04",
+        "p05",
+        "p06",
+        "p08",
+        "p11",
+        "p12",
+        "p13",
+        "p15",
+        "p16"
+      ]
+    },
+    {
+      "case": "Winning pair down alone (legal)",
+      "lineup": [
+        [
+          "p03",
+          "p12"
+        ],
+        [
+          "p01",
+          "p02"
+        ],
+        [
+          "p05",
+          "p06"
+        ],
+        [
+          "p13",
+          "p15"
+        ],
+        [
+          "p08",
+          "p16"
+        ]
+      ],
+      "available": [
+        "p01",
+        "p02",
+        "p03",
+        "p04",
+        "p05",
+        "p06",
+        "p08",
+        "p11",
+        "p12",
+        "p13",
+        "p15",
+        "p16"
+      ]
+    },
+    {
+      "case": "Only four lines (R1)",
+      "lineup": [
+        [
+          "p01",
+          "p02"
+        ],
+        [
+          "p03",
+          "p12"
+        ],
+        [
+          "p05",
+          "p06"
+        ],
+        [
+          "p13",
+          "p15"
+        ]
+      ],
+      "available": [
+        "p01",
+        "p02",
+        "p03",
+        "p04",
+        "p05",
+        "p06",
+        "p08",
+        "p11",
+        "p12",
+        "p13",
+        "p15",
+        "p16"
+      ]
+    },
+    {
+      "case": "One-player line (R1)",
+      "lineup": [
+        [
+          "p01"
+        ],
+        [
+          "p03",
+          "p12"
+        ],
+        [
+          "p05",
+          "p06"
+        ],
+        [
+          "p13",
+          "p15"
+        ],
+        [
+          "p08",
+          "p16"
+        ]
+      ],
+      "available": [
+        "p01",
+        "p02",
+        "p03",
+        "p04",
+        "p05",
+        "p06",
+        "p08",
+        "p11",
+        "p12",
+        "p13",
+        "p15",
+        "p16"
+      ]
+    },
+    {
+      "case": "Unknown player (R2)",
+      "lineup": [
+        [
+          "p01",
+          "p99"
+        ],
+        [
+          "p03",
+          "p12"
+        ],
+        [
+          "p05",
+          "p06"
+        ],
+        [
+          "p13",
+          "p15"
+        ],
+        [
+          "p08",
+          "p16"
+        ]
+      ],
+      "available": [
+        "p01",
+        "p02",
+        "p03",
+        "p04",
+        "p05",
+        "p06",
+        "p08",
+        "p11",
+        "p12",
+        "p13",
+        "p15",
+        "p16"
+      ]
+    },
+    {
+      "case": "Player in two lines (R3)",
+      "lineup": [
+        [
+          "p01",
+          "p02"
+        ],
+        [
+          "p01",
+          "p12"
+        ],
+        [
+          "p05",
+          "p06"
+        ],
+        [
+          "p13",
+          "p15"
+        ],
+        [
+          "p08",
+          "p16"
+        ]
+      ],
+      "available": [
+        "p01",
+        "p02",
+        "p03",
+        "p04",
+        "p05",
+        "p06",
+        "p08",
+        "p11",
+        "p12",
+        "p13",
+        "p15",
+        "p16"
+      ]
+    },
+    {
+      "case": "Two problems at once",
+      "lineup": [
+        [
+          "p01",
+          "p02"
+        ],
+        [
+          "p11",
+          "p12"
+        ],
+        [
+          "p05",
+          "p06"
+        ],
+        [
+          "p13",
+          "p15"
+        ],
+        [
+          "p08",
+          "p16"
+        ]
+      ],
+      "available": [
+        "p01",
+        "p02",
+        "p03",
+        "p04",
+        "p05",
+        "p06",
+        "p08",
+        "p11",
+        "p12",
+        "p15",
+        "p16"
+      ]
+    }
+  ],
+  "planner_cases": [
+    {
+      "scenario": "Week 3 (Lena leaves by 4:00)",
+      "available": [
+        "p01",
+        "p02",
+        "p03",
+        "p04",
+        "p05",
+        "p06",
+        "p08",
+        "p11",
+        "p12",
+        "p13",
+        "p15",
+        "p16"
+      ],
+      "first_start": "13:00",
+      "windows": {
+        "p12": "until 16:00"
+      }
+    },
+    {
+      "scenario": "Carla drops at 9pm",
+      "available": [
+        "p01",
+        "p02",
+        "p04",
+        "p05",
+        "p06",
+        "p08",
+        "p11",
+        "p12",
+        "p13",
+        "p15",
+        "p16"
+      ],
+      "first_start": "13:00",
+      "windows": {
+        "p12": "until 16:00"
+      },
+      "baseline": [
+        [
+          "p01",
+          "p02"
+        ],
+        [
+          "p03",
+          "p12"
+        ],
+        [
+          "p05",
+          "p06"
+        ],
+        [
+          "p13",
+          "p15"
+        ],
+        [
+          "p08",
+          "p16"
+        ]
+      ]
+    },
+    {
+      "scenario": "Carla and Dana both out",
+      "available": [
+        "p01",
+        "p02",
+        "p05",
+        "p06",
+        "p08",
+        "p11",
+        "p12",
+        "p13",
+        "p15",
+        "p16"
+      ],
+      "first_start": "13:00",
+      "windows": {
+        "p12": "until 16:00"
+      },
+      "baseline": [
+        [
+          "p01",
+          "p02"
+        ],
+        [
+          "p03",
+          "p12"
+        ],
+        [
+          "p05",
+          "p06"
+        ],
+        [
+          "p13",
+          "p15"
+        ],
+        [
+          "p08",
+          "p16"
+        ]
+      ]
+    },
+    {
+      "scenario": "Only nine players",
+      "available": [
+        "p01",
+        "p02",
+        "p03",
+        "p04",
+        "p05",
+        "p06",
+        "p08",
+        "p11",
+        "p12"
+      ],
+      "first_start": "13:00"
+    },
+    {
+      "scenario": "Captain ranking",
+      "available": [
+        "p01",
+        "p02",
+        "p03",
+        "p04",
+        "p05",
+        "p06",
+        "p08",
+        "p11",
+        "p12",
+        "p13",
+        "p15",
+        "p16"
+      ],
+      "first_start": "13:00",
+      "ranking": [
+        "p08",
+        "p16",
+        "p01",
+        "p02",
+        "p05",
+        "p06",
+        "p03",
+        "p12",
+        "p13",
+        "p15"
+      ]
+    },
+    {
+      "scenario": "Fixed pair and a player rested",
+      "available": [
+        "p01",
+        "p02",
+        "p03",
+        "p04",
+        "p05",
+        "p06",
+        "p08",
+        "p11",
+        "p12",
+        "p13",
+        "p15",
+        "p16"
+      ],
+      "first_start": "13:00",
+      "exclude": [
+        "p01"
+      ],
+      "fixed": {
+        "3": [
+          "p05",
+          "p06"
+        ]
+      }
+    },
+    {
+      "scenario": "Emergency sub needed",
+      "available": [
+        "p01",
+        "p02",
+        "p03",
+        "p05",
+        "p06",
+        "p08",
+        "p12",
+        "p15",
+        "p16"
+      ],
+      "first_start": "13:00",
+      "reserve": [
+        "p04"
+      ]
+    },
+    {
+      "scenario": "Time limit might not fit",
+      "available": [
+        "p01",
+        "p02",
+        "p03",
+        "p04",
+        "p05",
+        "p06",
+        "p08",
+        "p11",
+        "p12",
+        "p13",
+        "p15",
+        "p16"
+      ],
+      "first_start": "13:00",
+      "windows": {
+        "p12": "until 14:30"
+      },
+      "fixed": {
+        "2": [
+          "p03",
+          "p12"
+        ]
+      }
+    },
+    {
+      "scenario": "Search limit reached",
+      "available": [
+        "p01",
+        "p02",
+        "p03",
+        "p04",
+        "p05",
+        "p06",
+        "p08",
+        "p11",
+        "p12",
+        "p13",
+        "p15",
+        "p16"
+      ],
+      "first_start": "13:00",
+      "node_budget": 5
+    }
+  ],
+  "expected": {
+    "lineups": [
+      {
+        "case": "Approved lineup",
+        "ok": true,
+        "violations": [],
+        "allowed_lines": [
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            2,
+            3,
+            4
+          ],
+          [
+            3,
+            4,
+            5
+          ],
+          [
+            4,
+            5
+          ]
+        ]
+      },
+      {
+        "case": "Carla drops (R4)",
+        "ok": false,
+        "violations": [
+          {
+            "rule_id": "R4",
+            "message": "Carla Ruiz is not confirmed available."
+          }
+        ],
+        "allowed_lines": [
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            2,
+            3,
+            4
+          ],
+          [
+            3,
+            4,
+            5
+          ],
+          [
+            4,
+            5
+          ]
+        ]
+      },
+      {
+        "case": "Kara at line 2 (R6)",
+        "ok": false,
+        "violations": [
+          {
+            "rule_id": "R6",
+            "message": "Kara Lewis last played line 5; a player may move only 2 lines, so line 2 is not allowed."
+          }
+        ],
+        "allowed_lines": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            2,
+            3,
+            4
+          ],
+          [
+            3,
+            4,
+            5
+          ],
+          [
+            4,
+            5
+          ]
+        ]
+      },
+      {
+        "case": "Dana at line 2 (legal)",
+        "ok": true,
+        "violations": [],
+        "allowed_lines": [
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            2,
+            3,
+            4
+          ],
+          [
+            2,
+            3,
+            4
+          ],
+          [
+            3,
+            4,
+            5
+          ],
+          [
+            4,
+            5
+          ]
+        ]
+      },
+      {
+        "case": "Pair moves two lines (R5)",
+        "ok": false,
+        "violations": [
+          {
+            "rule_id": "R5",
+            "message": "Ava Chen and Brooke Patel last played together at line 1; a pair may move only 1 line, so line 3 is not allowed."
+          }
+        ],
+        "allowed_lines": [
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            2,
+            3,
+            4
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4,
+            5
+          ],
+          [
+            4,
+            5
+          ]
+        ]
+      },
+      {
+        "case": "Sandbagging (R7)",
+        "ok": false,
+        "violations": [
+          {
+            "rule_id": "R7",
+            "message": "Sandbagging: winning pair Ava Chen and Brooke Patel moves down (line 1 to 2) while losing pair Hana Sato and Sam Torres moves up (line 5 to 4)."
+          }
+        ],
+        "allowed_lines": [
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            3,
+            4,
+            5
+          ]
+        ]
+      },
+      {
+        "case": "Winning pair down alone (legal)",
+        "ok": true,
+        "violations": [],
+        "allowed_lines": [
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3,
+            4
+          ],
+          [
+            3,
+            4,
+            5
+          ],
+          [
+            4,
+            5
+          ]
+        ]
+      },
+      {
+        "case": "Only four lines (R1)",
+        "ok": false,
+        "violations": [
+          {
+            "rule_id": "R1",
+            "message": "Expected 5 lines, got 4."
+          }
+        ],
+        "allowed_lines": [
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            2,
+            3,
+            4
+          ],
+          [
+            3,
+            4,
+            5
+          ]
+        ]
+      },
+      {
+        "case": "One-player line (R1)",
+        "ok": false,
+        "violations": [
+          {
+            "rule_id": "R1",
+            "message": "Line 1 needs 2 players, got 1."
+          }
+        ],
+        "allowed_lines": [
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            2,
+            3,
+            4
+          ],
+          [
+            3,
+            4,
+            5
+          ],
+          [
+            4,
+            5
+          ]
+        ]
+      },
+      {
+        "case": "Unknown player (R2)",
+        "ok": false,
+        "violations": [
+          {
+            "rule_id": "R2",
+            "message": "p99 is not on the roster."
+          }
+        ],
+        "allowed_lines": [
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            2,
+            3,
+            4
+          ],
+          [
+            3,
+            4,
+            5
+          ],
+          [
+            4,
+            5
+          ]
+        ]
+      },
+      {
+        "case": "Player in two lines (R3)",
+        "ok": false,
+        "violations": [
+          {
+            "rule_id": "R3",
+            "message": "Ava Chen is in more than one line."
+          }
+        ],
+        "allowed_lines": [
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            2,
+            3,
+            4
+          ],
+          [
+            3,
+            4,
+            5
+          ],
+          [
+            4,
+            5
+          ]
+        ]
+      },
+      {
+        "case": "Two problems at once",
+        "ok": false,
+        "violations": [
+          {
+            "rule_id": "R4",
+            "message": "Maya Singh is not confirmed available."
+          },
+          {
+            "rule_id": "R6",
+            "message": "Kara Lewis last played line 5; a player may move only 2 lines, so line 2 is not allowed."
+          }
+        ],
+        "allowed_lines": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            2,
+            3,
+            4
+          ],
+          [
+            3,
+            4,
+            5
+          ],
+          [
+            4,
+            5
+          ]
+        ]
+      }
+    ],
+    "times": [
+      {
+        "match_time": "13:00",
+        "time_window": null,
+        "line_fit": {
+          "1": "ok",
+          "2": "ok",
+          "3": "ok",
+          "4": "ok",
+          "5": "ok"
+        },
+        "safe_lines": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "risky_lines": [],
+        "blocked_lines": [],
+        "line_fit_notes": []
+      },
+      {
+        "match_time": "13:00",
+        "time_window": "until 16:00",
+        "line_fit": {
+          "1": "ok",
+          "2": "ok",
+          "3": "risky",
+          "4": "risky",
+          "5": "risky"
+        },
+        "safe_lines": [
+          1,
+          2
+        ],
+        "risky_lines": [
+          3,
+          4,
+          5
+        ],
+        "blocked_lines": [],
+        "line_fit_notes": [
+          "Line 3 (2:00 PM): fits a 1-hour line, not a long one",
+          "Line 4 (2:00 PM): fits a 1-hour line, not a long one",
+          "Line 5 (3:00 PM): fits a 1-hour line, not a long one"
+        ]
+      },
+      {
+        "match_time": "13:00",
+        "time_window": "until 15:30",
+        "line_fit": {
+          "1": "risky",
+          "2": "risky",
+          "3": "risky",
+          "4": "risky",
+          "5": "no"
+        },
+        "safe_lines": [],
+        "risky_lines": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "blocked_lines": [
+          5
+        ],
+        "line_fit_notes": [
+          "Line 1 (1:00 PM): fits a 1-hour line, not a long one",
+          "Line 2 (1:00 PM): fits a 1-hour line, not a long one",
+          "Line 3 (2:00 PM): fits a 1-hour line, not a long one",
+          "Line 4 (2:00 PM): fits a 1-hour line, not a long one",
+          "Line 5 (3:00 PM): cannot finish by 3:30 PM"
+        ]
+      },
+      {
+        "match_time": "13:00",
+        "time_window": "until 12:00",
+        "line_fit": {
+          "1": "no",
+          "2": "no",
+          "3": "no",
+          "4": "no",
+          "5": "no"
+        },
+        "safe_lines": [],
+        "risky_lines": [],
+        "blocked_lines": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "line_fit_notes": [
+          "Line 1 (1:00 PM): cannot finish by 12:00 PM",
+          "Line 2 (1:00 PM): cannot finish by 12:00 PM",
+          "Line 3 (2:00 PM): cannot finish by 12:00 PM",
+          "Line 4 (2:00 PM): cannot finish by 12:00 PM",
+          "Line 5 (3:00 PM): cannot finish by 12:00 PM"
+        ]
+      },
+      {
+        "match_time": "13:00",
+        "time_window": "until 18:00",
+        "line_fit": {
+          "1": "ok",
+          "2": "ok",
+          "3": "ok",
+          "4": "ok",
+          "5": "ok"
+        },
+        "safe_lines": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "risky_lines": [],
+        "blocked_lines": [],
+        "line_fit_notes": []
+      },
+      {
+        "match_time": "13:00",
+        "time_window": "after 14:00",
+        "line_fit": {
+          "1": "no",
+          "2": "no",
+          "3": "ok",
+          "4": "ok",
+          "5": "ok"
+        },
+        "safe_lines": [
+          3,
+          4,
+          5
+        ],
+        "risky_lines": [],
+        "blocked_lines": [
+          1,
+          2
+        ],
+        "line_fit_notes": [
+          "Line 1 (1:00 PM): starts at 1:00 PM, before 2:00 PM",
+          "Line 2 (1:00 PM): starts at 1:00 PM, before 2:00 PM"
+        ]
+      },
+      {
+        "match_time": "13:00",
+        "time_window": "after 13:00",
+        "line_fit": {
+          "1": "ok",
+          "2": "ok",
+          "3": "ok",
+          "4": "ok",
+          "5": "ok"
+        },
+        "safe_lines": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "risky_lines": [],
+        "blocked_lines": [],
+        "line_fit_notes": []
+      },
+      {
+        "match_time": "13:00",
+        "time_window": "after 16:00",
+        "line_fit": {
+          "1": "no",
+          "2": "no",
+          "3": "no",
+          "4": "no",
+          "5": "no"
+        },
+        "safe_lines": [],
+        "risky_lines": [],
+        "blocked_lines": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "line_fit_notes": [
+          "Line 1 (1:00 PM): starts at 1:00 PM, before 4:00 PM",
+          "Line 2 (1:00 PM): starts at 1:00 PM, before 4:00 PM",
+          "Line 3 (2:00 PM): starts at 2:00 PM, before 4:00 PM",
+          "Line 4 (2:00 PM): starts at 2:00 PM, before 4:00 PM",
+          "Line 5 (3:00 PM): starts at 3:00 PM, before 4:00 PM"
+        ]
+      },
+      {
+        "match_time": "13:00",
+        "time_window": "maybe later",
+        "line_fit": {
+          "1": "ok",
+          "2": "ok",
+          "3": "ok",
+          "4": "ok",
+          "5": "ok"
+        },
+        "safe_lines": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "risky_lines": [],
+        "blocked_lines": [],
+        "line_fit_notes": []
+      },
+      {
+        "match_time": "09:30",
+        "time_window": null,
+        "line_fit": {
+          "1": "ok",
+          "2": "ok",
+          "3": "ok",
+          "4": "ok",
+          "5": "ok"
+        },
+        "safe_lines": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "risky_lines": [],
+        "blocked_lines": [],
+        "line_fit_notes": []
+      },
+      {
+        "match_time": "09:30",
+        "time_window": "until 16:00",
+        "line_fit": {
+          "1": "ok",
+          "2": "ok",
+          "3": "ok",
+          "4": "ok",
+          "5": "ok"
+        },
+        "safe_lines": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "risky_lines": [],
+        "blocked_lines": [],
+        "line_fit_notes": []
+      },
+      {
+        "match_time": "09:30",
+        "time_window": "until 15:30",
+        "line_fit": {
+          "1": "ok",
+          "2": "ok",
+          "3": "ok",
+          "4": "ok",
+          "5": "ok"
+        },
+        "safe_lines": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "risky_lines": [],
+        "blocked_lines": [],
+        "line_fit_notes": []
+      },
+      {
+        "match_time": "09:30",
+        "time_window": "until 12:00",
+        "line_fit": {
+          "1": "risky",
+          "2": "risky",
+          "3": "risky",
+          "4": "risky",
+          "5": "no"
+        },
+        "safe_lines": [],
+        "risky_lines": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "blocked_lines": [
+          5
+        ],
+        "line_fit_notes": [
+          "Line 1 (9:30 AM): fits a 1-hour line, not a long one",
+          "Line 2 (9:30 AM): fits a 1-hour line, not a long one",
+          "Line 3 (10:30 AM): fits a 1-hour line, not a long one",
+          "Line 4 (10:30 AM): fits a 1-hour line, not a long one",
+          "Line 5 (11:30 AM): cannot finish by 12:00 PM"
+        ]
+      },
+      {
+        "match_time": "09:30",
+        "time_window": "until 18:00",
+        "line_fit": {
+          "1": "ok",
+          "2": "ok",
+          "3": "ok",
+          "4": "ok",
+          "5": "ok"
+        },
+        "safe_lines": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "risky_lines": [],
+        "blocked_lines": [],
+        "line_fit_notes": []
+      },
+      {
+        "match_time": "09:30",
+        "time_window": "after 14:00",
+        "line_fit": {
+          "1": "no",
+          "2": "no",
+          "3": "no",
+          "4": "no",
+          "5": "no"
+        },
+        "safe_lines": [],
+        "risky_lines": [],
+        "blocked_lines": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "line_fit_notes": [
+          "Line 1 (9:30 AM): starts at 9:30 AM, before 2:00 PM",
+          "Line 2 (9:30 AM): starts at 9:30 AM, before 2:00 PM",
+          "Line 3 (10:30 AM): starts at 10:30 AM, before 2:00 PM",
+          "Line 4 (10:30 AM): starts at 10:30 AM, before 2:00 PM",
+          "Line 5 (11:30 AM): starts at 11:30 AM, before 2:00 PM"
+        ]
+      },
+      {
+        "match_time": "09:30",
+        "time_window": "after 13:00",
+        "line_fit": {
+          "1": "no",
+          "2": "no",
+          "3": "no",
+          "4": "no",
+          "5": "no"
+        },
+        "safe_lines": [],
+        "risky_lines": [],
+        "blocked_lines": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "line_fit_notes": [
+          "Line 1 (9:30 AM): starts at 9:30 AM, before 1:00 PM",
+          "Line 2 (9:30 AM): starts at 9:30 AM, before 1:00 PM",
+          "Line 3 (10:30 AM): starts at 10:30 AM, before 1:00 PM",
+          "Line 4 (10:30 AM): starts at 10:30 AM, before 1:00 PM",
+          "Line 5 (11:30 AM): starts at 11:30 AM, before 1:00 PM"
+        ]
+      },
+      {
+        "match_time": "09:30",
+        "time_window": "after 16:00",
+        "line_fit": {
+          "1": "no",
+          "2": "no",
+          "3": "no",
+          "4": "no",
+          "5": "no"
+        },
+        "safe_lines": [],
+        "risky_lines": [],
+        "blocked_lines": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "line_fit_notes": [
+          "Line 1 (9:30 AM): starts at 9:30 AM, before 4:00 PM",
+          "Line 2 (9:30 AM): starts at 9:30 AM, before 4:00 PM",
+          "Line 3 (10:30 AM): starts at 10:30 AM, before 4:00 PM",
+          "Line 4 (10:30 AM): starts at 10:30 AM, before 4:00 PM",
+          "Line 5 (11:30 AM): starts at 11:30 AM, before 4:00 PM"
+        ]
+      },
+      {
+        "match_time": "09:30",
+        "time_window": "maybe later",
+        "line_fit": {
+          "1": "ok",
+          "2": "ok",
+          "3": "ok",
+          "4": "ok",
+          "5": "ok"
+        },
+        "safe_lines": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "risky_lines": [],
+        "blocked_lines": [],
+        "line_fit_notes": []
+      },
+      {
+        "match_time": "10:00",
+        "time_window": null,
+        "line_fit": {
+          "1": "ok",
+          "2": "ok",
+          "3": "ok",
+          "4": "ok",
+          "5": "ok"
+        },
+        "safe_lines": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "risky_lines": [],
+        "blocked_lines": [],
+        "line_fit_notes": []
+      },
+      {
+        "match_time": "10:00",
+        "time_window": "until 16:00",
+        "line_fit": {
+          "1": "ok",
+          "2": "ok",
+          "3": "ok",
+          "4": "ok",
+          "5": "ok"
+        },
+        "safe_lines": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "risky_lines": [],
+        "blocked_lines": [],
+        "line_fit_notes": []
+      },
+      {
+        "match_time": "10:00",
+        "time_window": "until 15:30",
+        "line_fit": {
+          "1": "ok",
+          "2": "ok",
+          "3": "ok",
+          "4": "ok",
+          "5": "ok"
+        },
+        "safe_lines": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "risky_lines": [],
+        "blocked_lines": [],
+        "line_fit_notes": []
+      },
+      {
+        "match_time": "10:00",
+        "time_window": "until 12:00",
+        "line_fit": {
+          "1": "risky",
+          "2": "risky",
+          "3": "risky",
+          "4": "risky",
+          "5": "no"
+        },
+        "safe_lines": [],
+        "risky_lines": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "blocked_lines": [
+          5
+        ],
+        "line_fit_notes": [
+          "Line 1 (10:00 AM): fits a 1-hour line, not a long one",
+          "Line 2 (10:00 AM): fits a 1-hour line, not a long one",
+          "Line 3 (11:00 AM): fits a 1-hour line, not a long one",
+          "Line 4 (11:00 AM): fits a 1-hour line, not a long one",
+          "Line 5 (12:00 PM): cannot finish by 12:00 PM"
+        ]
+      },
+      {
+        "match_time": "10:00",
+        "time_window": "until 18:00",
+        "line_fit": {
+          "1": "ok",
+          "2": "ok",
+          "3": "ok",
+          "4": "ok",
+          "5": "ok"
+        },
+        "safe_lines": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "risky_lines": [],
+        "blocked_lines": [],
+        "line_fit_notes": []
+      },
+      {
+        "match_time": "10:00",
+        "time_window": "after 14:00",
+        "line_fit": {
+          "1": "no",
+          "2": "no",
+          "3": "no",
+          "4": "no",
+          "5": "no"
+        },
+        "safe_lines": [],
+        "risky_lines": [],
+        "blocked_lines": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "line_fit_notes": [
+          "Line 1 (10:00 AM): starts at 10:00 AM, before 2:00 PM",
+          "Line 2 (10:00 AM): starts at 10:00 AM, before 2:00 PM",
+          "Line 3 (11:00 AM): starts at 11:00 AM, before 2:00 PM",
+          "Line 4 (11:00 AM): starts at 11:00 AM, before 2:00 PM",
+          "Line 5 (12:00 PM): starts at 12:00 PM, before 2:00 PM"
+        ]
+      },
+      {
+        "match_time": "10:00",
+        "time_window": "after 13:00",
+        "line_fit": {
+          "1": "no",
+          "2": "no",
+          "3": "no",
+          "4": "no",
+          "5": "no"
+        },
+        "safe_lines": [],
+        "risky_lines": [],
+        "blocked_lines": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "line_fit_notes": [
+          "Line 1 (10:00 AM): starts at 10:00 AM, before 1:00 PM",
+          "Line 2 (10:00 AM): starts at 10:00 AM, before 1:00 PM",
+          "Line 3 (11:00 AM): starts at 11:00 AM, before 1:00 PM",
+          "Line 4 (11:00 AM): starts at 11:00 AM, before 1:00 PM",
+          "Line 5 (12:00 PM): starts at 12:00 PM, before 1:00 PM"
+        ]
+      },
+      {
+        "match_time": "10:00",
+        "time_window": "after 16:00",
+        "line_fit": {
+          "1": "no",
+          "2": "no",
+          "3": "no",
+          "4": "no",
+          "5": "no"
+        },
+        "safe_lines": [],
+        "risky_lines": [],
+        "blocked_lines": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "line_fit_notes": [
+          "Line 1 (10:00 AM): starts at 10:00 AM, before 4:00 PM",
+          "Line 2 (10:00 AM): starts at 10:00 AM, before 4:00 PM",
+          "Line 3 (11:00 AM): starts at 11:00 AM, before 4:00 PM",
+          "Line 4 (11:00 AM): starts at 11:00 AM, before 4:00 PM",
+          "Line 5 (12:00 PM): starts at 12:00 PM, before 4:00 PM"
+        ]
+      },
+      {
+        "match_time": "10:00",
+        "time_window": "maybe later",
+        "line_fit": {
+          "1": "ok",
+          "2": "ok",
+          "3": "ok",
+          "4": "ok",
+          "5": "ok"
+        },
+        "safe_lines": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "risky_lines": [],
+        "blocked_lines": [],
+        "line_fit_notes": []
+      }
+    ],
+    "planner": [
+      {
+        "scenario": "Week 3 (Lena leaves by 4:00)",
+        "options": [
+          {
+            "rank": 1,
+            "lineup": [
+              [
+                "p01",
+                "p02"
+              ],
+              [
+                "p03",
+                "p12"
+              ],
+              [
+                "p05",
+                "p06"
+              ],
+              [
+                "p13",
+                "p15"
+              ],
+              [
+                "p08",
+                "p16"
+              ]
+            ],
+            "score": 19,
+            "breakdown": {
+              "move": 0,
+              "newcomer": 0,
+              "new_pair": 0,
+              "risky": 0,
+              "played": 19,
+              "side": 0,
+              "rank": 0,
+              "reserve": 0
+            },
+            "lines": [
+              {
+                "line": 1,
+                "start": "1:00 PM",
+                "players": [
+                  {
+                    "id": "p01",
+                    "name": "Ava Chen"
+                  },
+                  {
+                    "id": "p02",
+                    "name": "Brooke Patel"
+                  }
+                ],
+                "reasons": [
+                  "Same pair as before, last played line 1. Record together: 2-0. (R5)"
+                ]
+              },
+              {
+                "line": 2,
+                "start": "1:00 PM",
+                "players": [
+                  {
+                    "id": "p03",
+                    "name": "Carla Ruiz"
+                  },
+                  {
+                    "id": "p12",
+                    "name": "Lena Fischer"
+                  }
+                ],
+                "reasons": [
+                  "Same pair as before, last played line 2. Record together: 1-1. (R5)",
+                  "Lena: done by 4:00 PM even if it runs 3 hours."
+                ]
+              },
+              {
+                "line": 3,
+                "start": "2:00 PM",
+                "players": [
+                  {
+                    "id": "p05",
+                    "name": "Ellie Brooks"
+                  },
+                  {
+                    "id": "p06",
+                    "name": "Fran Okafor"
+                  }
+                ],
+                "reasons": [
+                  "Same pair as before, last played line 3. Record together: 1-1. (R5)"
+                ]
+              },
+              {
+                "line": 4,
+                "start": "2:00 PM",
+                "players": [
+                  {
+                    "id": "p13",
+                    "name": "Maya Singh"
+                  },
+                  {
+                    "id": "p15",
+                    "name": "Priya Shah"
+                  }
+                ],
+                "reasons": [
+                  "Same pair as before, last played line 4. Record together: 1-1. (R5)"
+                ]
+              },
+              {
+                "line": 5,
+                "start": "3:00 PM",
+                "players": [
+                  {
+                    "id": "p08",
+                    "name": "Hana Sato"
+                  },
+                  {
+                    "id": "p16",
+                    "name": "Sam Torres"
+                  }
+                ],
+                "reasons": [
+                  "Same pair as before, last played line 5. Record together: 0-1. (R5)"
+                ]
+              }
+            ],
+            "bench": [
+              "p04",
+              "p11"
+            ],
+            "warnings": []
+          },
+          {
+            "rank": 2,
+            "lineup": [
+              [
+                "p01",
+                "p02"
+              ],
+              [
+                "p03",
+                "p12"
+              ],
+              [
+                "p05",
+                "p06"
+              ],
+              [
+                "p13",
+                "p15"
+              ],
+              [
+                "p11",
+                "p16"
+              ]
+            ],
+            "score": 19,
+            "breakdown": {
+              "move": 0,
+              "newcomer": 0,
+              "new_pair": 0,
+              "risky": 0,
+              "played": 19,
+              "side": 0,
+              "rank": 0,
+              "reserve": 0
+            },
+            "lines": [
+              {
+                "line": 1,
+                "start": "1:00 PM",
+                "players": [
+                  {
+                    "id": "p01",
+                    "name": "Ava Chen"
+                  },
+                  {
+                    "id": "p02",
+                    "name": "Brooke Patel"
+                  }
+                ],
+                "reasons": [
+                  "Same pair as before, last played line 1. Record together: 2-0. (R5)"
+                ]
+              },
+              {
+                "line": 2,
+                "start": "1:00 PM",
+                "players": [
+                  {
+                    "id": "p03",
+                    "name": "Carla Ruiz"
+                  },
+                  {
+                    "id": "p12",
+                    "name": "Lena Fischer"
+                  }
+                ],
+                "reasons": [
+                  "Same pair as before, last played line 2. Record together: 1-1. (R5)",
+                  "Lena: done by 4:00 PM even if it runs 3 hours."
+                ]
+              },
+              {
+                "line": 3,
+                "start": "2:00 PM",
+                "players": [
+                  {
+                    "id": "p05",
+                    "name": "Ellie Brooks"
+                  },
+                  {
+                    "id": "p06",
+                    "name": "Fran Okafor"
+                  }
+                ],
+                "reasons": [
+                  "Same pair as before, last played line 3. Record together: 1-1. (R5)"
+                ]
+              },
+              {
+                "line": 4,
+                "start": "2:00 PM",
+                "players": [
+                  {
+                    "id": "p13",
+                    "name": "Maya Singh"
+                  },
+                  {
+                    "id": "p15",
+                    "name": "Priya Shah"
+                  }
+                ],
+                "reasons": [
+                  "Same pair as before, last played line 4. Record together: 1-1. (R5)"
+                ]
+              },
+              {
+                "line": 5,
+                "start": "3:00 PM",
+                "players": [
+                  {
+                    "id": "p11",
+                    "name": "Kara Lewis"
+                  },
+                  {
+                    "id": "p16",
+                    "name": "Sam Torres"
+                  }
+                ],
+                "reasons": [
+                  "Same pair as before, last played line 5. Record together: 1-0. (R5)"
+                ]
+              }
+            ],
+            "bench": [
+              "p04",
+              "p08"
+            ],
+            "warnings": []
+          },
+          {
+            "rank": 3,
+            "lineup": [
+              [
+                "p01",
+                "p02"
+              ],
+              [
+                "p03",
+                "p12"
+              ],
+              [
+                "p05",
+                "p06"
+              ],
+              [
+                "p13",
+                "p15"
+              ],
+              [
+                "p04",
+                "p08"
+              ]
+            ],
+            "score": 23,
+            "breakdown": {
+              "move": 0,
+              "newcomer": 0,
+              "new_pair": 6,
+              "risky": 0,
+              "played": 17,
+              "side": 0,
+              "rank": 0,
+              "reserve": 0
+            },
+            "lines": [
+              {
+                "line": 1,
+                "start": "1:00 PM",
+                "players": [
+                  {
+                    "id": "p01",
+                    "name": "Ava Chen"
+                  },
+                  {
+                    "id": "p02",
+                    "name": "Brooke Patel"
+                  }
+                ],
+                "reasons": [
+                  "Same pair as before, last played line 1. Record together: 2-0. (R5)"
+                ]
+              },
+              {
+                "line": 2,
+                "start": "1:00 PM",
+                "players": [
+                  {
+                    "id": "p03",
+                    "name": "Carla Ruiz"
+                  },
+                  {
+                    "id": "p12",
+                    "name": "Lena Fischer"
+                  }
+                ],
+                "reasons": [
+                  "Same pair as before, last played line 2. Record together: 1-1. (R5)",
+                  "Lena: done by 4:00 PM even if it runs 3 hours."
+                ]
+              },
+              {
+                "line": 3,
+                "start": "2:00 PM",
+                "players": [
+                  {
+                    "id": "p05",
+                    "name": "Ellie Brooks"
+                  },
+                  {
+                    "id": "p06",
+                    "name": "Fran Okafor"
+                  }
+                ],
+                "reasons": [
+                  "Same pair as before, last played line 3. Record together: 1-1. (R5)"
+                ]
+              },
+              {
+                "line": 4,
+                "start": "2:00 PM",
+                "players": [
+                  {
+                    "id": "p13",
+                    "name": "Maya Singh"
+                  },
+                  {
+                    "id": "p15",
+                    "name": "Priya Shah"
+                  }
+                ],
+                "reasons": [
+                  "Same pair as before, last played line 4. Record together: 1-1. (R5)"
+                ]
+              },
+              {
+                "line": 5,
+                "start": "3:00 PM",
+                "players": [
+                  {
+                    "id": "p04",
+                    "name": "Dana Kim"
+                  },
+                  {
+                    "id": "p08",
+                    "name": "Hana Sato"
+                  }
+                ],
+                "reasons": [
+                  "New pair. Dana hasn't played this season, Hana last played line 5; line 5 is within two lines for each. (R6)"
+                ]
+              }
+            ],
+            "bench": [
+              "p11",
+              "p16"
+            ],
+            "warnings": []
+          }
+        ],
+        "pool": [
+          "p01",
+          "p02",
+          "p03",
+          "p04",
+          "p05",
+          "p06",
+          "p08",
+          "p11",
+          "p12",
+          "p13",
+          "p15",
+          "p16"
+        ],
+        "complete": true,
+        "candidates_per_line": [
+          20,
+          35,
+          63,
+          44,
+          27
+        ],
+        "rejected_at_leaf": {},
+        "none_reason": null
+      },
+      {
+        "scenario": "Carla drops at 9pm",
+        "options": [
+          {
+            "rank": 1,
+            "lineup": [
+              [
+                "p01",
+                "p02"
+              ],
+              [
+                "p04",
+                "p12"
+              ],
+              [
+                "p05",
+                "p06"
+              ],
+              [
+                "p13",
+                "p15"
+              ],
+              [
+                "p08",
+                "p16"
+              ]
+            ],
+            "score": 26,
+            "breakdown": {
+              "move": 0,
+              "newcomer": 3,
+              "new_pair": 6,
+              "risky": 0,
+              "played": 17,
+              "side": 0,
+              "rank": 0,
+              "reserve": 0
+            },
+            "lines": [
+              {
+                "line": 1,
+                "start": "1:00 PM",
+                "players": [
+                  {
+                    "id": "p01",
+                    "name": "Ava Chen"
+                  },
+                  {
+                    "id": "p02",
+                    "name": "Brooke Patel"
+                  }
+                ],
+                "reasons": [
+                  "Same pair as before, last played line 1. Record together: 2-0. (R5)"
+                ]
+              },
+              {
+                "line": 2,
+                "start": "1:00 PM",
+                "players": [
+                  {
+                    "id": "p04",
+                    "name": "Dana Kim"
+                  },
+                  {
+                    "id": "p12",
+                    "name": "Lena Fischer"
+                  }
+                ],
+                "reasons": [
+                  "New pair. Dana hasn't played this season, Lena last played line 2; line 2 is within two lines for each. (R6)",
+                  "Lena: done by 4:00 PM even if it runs 3 hours."
+                ]
+              },
+              {
+                "line": 3,
+                "start": "2:00 PM",
+                "players": [
+                  {
+                    "id": "p05",
+                    "name": "Ellie Brooks"
+                  },
+                  {
+                    "id": "p06",
+                    "name": "Fran Okafor"
+                  }
+                ],
+                "reasons": [
+                  "Same pair as before, last played line 3. Record together: 1-1. (R5)"
+                ]
+              },
+              {
+                "line": 4,
+                "start": "2:00 PM",
+                "players": [
+                  {
+                    "id": "p13",
+                    "name": "Maya Singh"
+                  },
+                  {
+                    "id": "p15",
+                    "name": "Priya Shah"
+                  }
+                ],
+                "reasons": [
+                  "Same pair as before, last played line 4. Record together: 1-1. (R5)"
+                ]
+              },
+              {
+                "line": 5,
+                "start": "3:00 PM",
+                "players": [
+                  {
+                    "id": "p08",
+                    "name": "Hana Sato"
+                  },
+                  {
+                    "id": "p16",
+                    "name": "Sam Torres"
+                  }
+                ],
+                "reasons": [
+                  "Same pair as before, last played line 5. Record together: 0-1. (R5)"
+                ]
+              }
+            ],
+            "bench": [
+              "p11"
+            ],
+            "warnings": []
+          },
+          {
+            "rank": 2,
+            "lineup": [
+              [
+                "p01",
+                "p02"
+              ],
+              [
+                "p04",
+                "p12"
+              ],
+              [
+                "p05",
+                "p06"
+              ],
+              [
+                "p11",
+                "p13"
+              ],
+              [
+                "p08",
+                "p16"
+              ]
+            ],
+            "score": 34,
+            "breakdown": {
+              "move": 0,
+              "newcomer": 6,
+              "new_pair": 12,
+              "risky": 0,
+              "played": 16,
+              "side": 0,
+              "rank": 0,
+              "reserve": 0
+            },
+            "lines": [
+              {
+                "line": 1,
+                "start": "1:00 PM",
+                "players": [
+                  {
+                    "id": "p01",
+                    "name": "Ava Chen"
+                  },
+                  {
+                    "id": "p02",
+                    "name": "Brooke Patel"
+                  }
+                ],
+                "reasons": [
+                  "Same pair as before, last played line 1. Record together: 2-0. (R5)"
+                ]
+              },
+              {
+                "line": 2,
+                "start": "1:00 PM",
+                "players": [
+                  {
+                    "id": "p04",
+                    "name": "Dana Kim"
+                  },
+                  {
+                    "id": "p12",
+                    "name": "Lena Fischer"
+                  }
+                ],
+                "reasons": [
+                  "New pair. Dana hasn't played this season, Lena last played line 2; line 2 is within two lines for each. (R6)",
+                  "Lena: done by 4:00 PM even if it runs 3 hours."
+                ]
+              },
+              {
+                "line": 3,
+                "start": "2:00 PM",
+                "players": [
+                  {
+                    "id": "p05",
+                    "name": "Ellie Brooks"
+                  },
+                  {
+                    "id": "p06",
+                    "name": "Fran Okafor"
+                  }
+                ],
+                "reasons": [
+                  "Same pair as before, last played line 3. Record together: 1-1. (R5)"
+                ]
+              },
+              {
+                "line": 4,
+                "start": "2:00 PM",
+                "players": [
+                  {
+                    "id": "p11",
+                    "name": "Kara Lewis"
+                  },
+                  {
+                    "id": "p13",
+                    "name": "Maya Singh"
+                  }
+                ],
+                "reasons": [
+                  "New pair. Kara last played line 5, Maya last played line 4; line 4 is within two lines for each. (R6)"
+                ]
+              },
+              {
+                "line": 5,
+                "start": "3:00 PM",
+                "players": [
+                  {
+                    "id": "p08",
+                    "name": "Hana Sato"
+                  },
+                  {
+                    "id": "p16",
+                    "name": "Sam Torres"
+                  }
+                ],
+                "reasons": [
+                  "Same pair as before, last played line 5. Record together: 0-1. (R5)"
+                ]
+              }
+            ],
+            "bench": [
+              "p15"
+            ],
+            "warnings": []
+          },
+          {
+            "rank": 3,
+            "lineup": [
+              [
+                "p01",
+                "p02"
+              ],
+              [
+                "p04",
+                "p12"
+              ],
+              [
+                "p05",
+                "p06"
+              ],
+              [
+                "p13",
+                "p15"
+              ],
+              [
+                "p08",
+                "p11"
+              ]
+            ],
+            "score": 34,
+            "breakdown": {
+              "move": 0,
+              "newcomer": 6,
+              "new_pair": 12,
+              "risky": 0,
+              "played": 16,
+              "side": 0,
+              "rank": 0,
+              "reserve": 0
+            },
+            "lines": [
+              {
+                "line": 1,
+                "start": "1:00 PM",
+                "players": [
+                  {
+                    "id": "p01",
+                    "name": "Ava Chen"
+                  },
+                  {
+                    "id": "p02",
+                    "name": "Brooke Patel"
+                  }
+                ],
+                "reasons": [
+                  "Same pair as before, last played line 1. Record together: 2-0. (R5)"
+                ]
+              },
+              {
+                "line": 2,
+                "start": "1:00 PM",
+                "players": [
+                  {
+                    "id": "p04",
+                    "name": "Dana Kim"
+                  },
+                  {
+                    "id": "p12",
+                    "name": "Lena Fischer"
+                  }
+                ],
+                "reasons": [
+                  "New pair. Dana hasn't played this season, Lena last played line 2; line 2 is within two lines for each. (R6)",
+                  "Lena: done by 4:00 PM even if it runs 3 hours."
+                ]
+              },
+              {
+                "line": 3,
+                "start": "2:00 PM",
+                "players": [
+                  {
+                    "id": "p05",
+                    "name": "Ellie Brooks"
+                  },
+                  {
+                    "id": "p06",
+                    "name": "Fran Okafor"
+                  }
+                ],
+                "reasons": [
+                  "Same pair as before, last played line 3. Record together: 1-1. (R5)"
+                ]
+              },
+              {
+                "line": 4,
+                "start": "2:00 PM",
+                "players": [
+                  {
+                    "id": "p13",
+                    "name": "Maya Singh"
+                  },
+                  {
+                    "id": "p15",
+                    "name": "Priya Shah"
+                  }
+                ],
+                "reasons": [
+                  "Same pair as before, last played line 4. Record together: 1-1. (R5)"
+                ]
+              },
+              {
+                "line": 5,
+                "start": "3:00 PM",
+                "players": [
+                  {
+                    "id": "p08",
+                    "name": "Hana Sato"
+                  },
+                  {
+                    "id": "p11",
+                    "name": "Kara Lewis"
+                  }
+                ],
+                "reasons": [
+                  "New pair. Hana last played line 5, Kara last played line 5; line 5 is within two lines for each. (R6)"
+                ]
+              }
+            ],
+            "bench": [
+              "p16"
+            ],
+            "warnings": []
+          }
+        ],
+        "pool": [
+          "p01",
+          "p02",
+          "p04",
+          "p05",
+          "p06",
+          "p08",
+          "p11",
+          "p12",
+          "p13",
+          "p15",
+          "p16"
+        ],
+        "complete": true,
+        "candidates_per_line": [
+          14,
+          27,
+          52,
+          36,
+          27
+        ],
+        "rejected_at_leaf": {},
+        "none_reason": null
+      },
+      {
+        "scenario": "Carla and Dana both out",
+        "options": [
+          {
+            "rank": 1,
+            "lineup": [
+              [
+                "p01",
+                "p02"
+              ],
+              [
+                "p05",
+                "p12"
+              ],
+              [
+                "p06",
+                "p11"
+              ],
+              [
+                "p13",
+                "p15"
+              ],
+              [
+                "p08",
+                "p16"
+              ]
+            ],
+            "score": 37,
+            "breakdown": {
+              "move": 4,
+              "newcomer": 3,
+              "new_pair": 12,
+              "risky": 0,
+              "played": 18,
+              "side": 0,
+              "rank": 0,
+              "reserve": 0
+            },
+            "lines": [
+              {
+                "line": 1,
+                "start": "1:00 PM",
+                "players": [
+                  {
+                    "id": "p01",
+                    "name": "Ava Chen"
+                  },
+                  {
+                    "id": "p02",
+                    "name": "Brooke Patel"
+                  }
+                ],
+                "reasons": [
+                  "Same pair as before, last played line 1. Record together: 2-0. (R5)"
+                ]
+              },
+              {
+                "line": 2,
+                "start": "1:00 PM",
+                "players": [
+                  {
+                    "id": "p05",
+                    "name": "Ellie Brooks"
+                  },
+                  {
+                    "id": "p12",
+                    "name": "Lena Fischer"
+                  }
+                ],
+                "reasons": [
+                  "New pair. Ellie last played line 3, Lena last played line 2; line 2 is within two lines for each. (R6)",
+                  "Lena: done by 4:00 PM even if it runs 3 hours."
+                ]
+              },
+              {
+                "line": 3,
+                "start": "2:00 PM",
+                "players": [
+                  {
+                    "id": "p06",
+                    "name": "Fran Okafor"
+                  },
+                  {
+                    "id": "p11",
+                    "name": "Kara Lewis"
+                  }
+                ],
+                "reasons": [
+                  "New pair. Fran last played line 3, Kara last played line 5; line 3 is within two lines for each. (R6)"
+                ]
+              },
+              {
+                "line": 4,
+                "start": "2:00 PM",
+                "players": [
+                  {
+                    "id": "p13",
+                    "name": "Maya Singh"
+                  },
+                  {
+                    "id": "p15",
+                    "name": "Priya Shah"
+                  }
+                ],
+                "reasons": [
+                  "Same pair as before, last played line 4. Record together: 1-1. (R5)"
+                ]
+              },
+              {
+                "line": 5,
+                "start": "3:00 PM",
+                "players": [
+                  {
+                    "id": "p08",
+                    "name": "Hana Sato"
+                  },
+                  {
+                    "id": "p16",
+                    "name": "Sam Torres"
+                  }
+                ],
+                "reasons": [
+                  "Same pair as before, last played line 5. Record together: 0-1. (R5)"
+                ]
+              }
+            ],
+            "bench": [],
+            "warnings": []
+          },
+          {
+            "rank": 2,
+            "lineup": [
+              [
+                "p01",
+                "p02"
+              ],
+              [
+                "p06",
+                "p12"
+              ],
+              [
+                "p05",
+                "p11"
+              ],
+              [
+                "p13",
+                "p15"
+              ],
+              [
+                "p08",
+                "p16"
+              ]
+            ],
+            "score": 37,
+            "breakdown": {
+              "move": 4,
+              "newcomer": 3,
+              "new_pair": 12,
+              "risky": 0,
+              "played": 18,
+              "side": 0,
+              "rank": 0,
+              "reserve": 0
+            },
+            "lines": [
+              {
+                "line": 1,
+                "start": "1:00 PM",
+                "players": [
+                  {
+                    "id": "p01",
+                    "name": "Ava Chen"
+                  },
+                  {
+                    "id": "p02",
+                    "name": "Brooke Patel"
+                  }
+                ],
+                "reasons": [
+                  "Same pair as before, last played line 1. Record together: 2-0. (R5)"
+                ]
+              },
+              {
+                "line": 2,
+                "start": "1:00 PM",
+                "players": [
+                  {
+                    "id": "p06",
+                    "name": "Fran Okafor"
+                  },
+                  {
+                    "id": "p12",
+                    "name": "Lena Fischer"
+                  }
+                ],
+                "reasons": [
+                  "New pair. Fran last played line 3, Lena last played line 2; line 2 is within two lines for each. (R6)",
+                  "Lena: done by 4:00 PM even if it runs 3 hours."
+                ]
+              },
+              {
+                "line": 3,
+                "start": "2:00 PM",
+                "players": [
+                  {
+                    "id": "p05",
+                    "name": "Ellie Brooks"
+                  },
+                  {
+                    "id": "p11",
+                    "name": "Kara Lewis"
+                  }
+                ],
+                "reasons": [
+                  "New pair. Ellie last played line 3, Kara last played line 5; line 3 is within two lines for each. (R6)"
+                ]
+              },
+              {
+                "line": 4,
+                "start": "2:00 PM",
+                "players": [
+                  {
+                    "id": "p13",
+                    "name": "Maya Singh"
+                  },
+                  {
+                    "id": "p15",
+                    "name": "Priya Shah"
+                  }
+                ],
+                "reasons": [
+                  "Same pair as before, last played line 4. Record together: 1-1. (R5)"
+                ]
+              },
+              {
+                "line": 5,
+                "start": "3:00 PM",
+                "players": [
+                  {
+                    "id": "p08",
+                    "name": "Hana Sato"
+                  },
+                  {
+                    "id": "p16",
+                    "name": "Sam Torres"
+                  }
+                ],
+                "reasons": [
+                  "Same pair as before, last played line 5. Record together: 0-1. (R5)"
+                ]
+              }
+            ],
+            "bench": [],
+            "warnings": []
+          },
+          {
+            "rank": 3,
+            "lineup": [
+              [
+                "p01",
+                "p02"
+              ],
+              [
+                "p12",
+                "p13"
+              ],
+              [
+                "p05",
+                "p06"
+              ],
+              [
+                "p11",
+                "p15"
+              ],
+              [
+                "p08",
+                "p16"
+              ]
+            ],
+            "score": 41,
+            "breakdown": {
+              "move": 8,
+              "newcomer": 3,
+              "new_pair": 12,
+              "risky": 0,
+              "played": 18,
+              "side": 0,
+              "rank": 0,
+              "reserve": 0
+            },
+            "lines": [
+              {
+                "line": 1,
+                "start": "1:00 PM",
+                "players": [
+                  {
+                    "id": "p01",
+                    "name": "Ava Chen"
+                  },
+                  {
+                    "id": "p02",
+                    "name": "Brooke Patel"
+                  }
+                ],
+                "reasons": [
+                  "Same pair as before, last played line 1. Record together: 2-0. (R5)"
+                ]
+              },
+              {
+                "line": 2,
+                "start": "1:00 PM",
+                "players": [
+                  {
+                    "id": "p12",
+                    "name": "Lena Fischer"
+                  },
+                  {
+                    "id": "p13",
+                    "name": "Maya Singh"
+                  }
+                ],
+                "reasons": [
+                  "New pair. Lena last played line 2, Maya last played line 4; line 2 is within two lines for each. (R6)",
+                  "Lena: done by 4:00 PM even if it runs 3 hours."
+                ]
+              },
+              {
+                "line": 3,
+                "start": "2:00 PM",
+                "players": [
+                  {
+                    "id": "p05",
+                    "name": "Ellie Brooks"
+                  },
+                  {
+                    "id": "p06",
+                    "name": "Fran Okafor"
+                  }
+                ],
+                "reasons": [
+                  "Same pair as before, last played line 3. Record together: 1-1. (R5)"
+                ]
+              },
+              {
+                "line": 4,
+                "start": "2:00 PM",
+                "players": [
+                  {
+                    "id": "p11",
+                    "name": "Kara Lewis"
+                  },
+                  {
+                    "id": "p15",
+                    "name": "Priya Shah"
+                  }
+                ],
+                "reasons": [
+                  "New pair. Kara last played line 5, Priya last played line 4; line 4 is within two lines for each. (R6)"
+                ]
+              },
+              {
+                "line": 5,
+                "start": "3:00 PM",
+                "players": [
+                  {
+                    "id": "p08",
+                    "name": "Hana Sato"
+                  },
+                  {
+                    "id": "p16",
+                    "name": "Sam Torres"
+                  }
+                ],
+                "reasons": [
+                  "Same pair as before, last played line 5. Record together: 0-1. (R5)"
+                ]
+              }
+            ],
+            "bench": [],
+            "warnings": []
+          }
+        ],
+        "pool": [
+          "p01",
+          "p02",
+          "p05",
+          "p06",
+          "p08",
+          "p11",
+          "p12",
+          "p13",
+          "p15",
+          "p16"
+        ],
+        "complete": true,
+        "candidates_per_line": [
+          9,
+          20,
+          42,
+          28,
+          20
+        ],
+        "rejected_at_leaf": {},
+        "none_reason": null
+      },
+      {
+        "scenario": "Only nine players",
+        "options": [],
+        "pool": [
+          "p01",
+          "p02",
+          "p03",
+          "p04",
+          "p05",
+          "p06",
+          "p08",
+          "p11",
+          "p12"
+        ],
+        "complete": true,
+        "candidates_per_line": [
+          20,
+          21,
+          35,
+          20,
+          9
+        ],
+        "rejected_at_leaf": {},
+        "none_reason": "Only 9 players are available and 10 are needed."
+      },
+      {
+        "scenario": "Captain ranking",
+        "options": [
+          {
+            "rank": 1,
+            "lineup": [
+              [
+                "p01",
+                "p02"
+              ],
+              [
+                "p03",
+                "p12"
+              ],
+              [
+                "p05",
+                "p06"
+              ],
+              [
+                "p13",
+                "p15"
+              ],
+              [
+                "p04",
+                "p11"
+              ]
+            ],
+            "score": 39,
+            "breakdown": {
+              "move": 0,
+              "newcomer": 0,
+              "new_pair": 6,
+              "risky": 0,
+              "played": 17,
+              "side": 0,
+              "rank": 16,
+              "reserve": 0
+            },
+            "lines": [
+              {
+                "line": 1,
+                "start": "1:00 PM",
+                "players": [
+                  {
+                    "id": "p01",
+                    "name": "Ava Chen"
+                  },
+                  {
+                    "id": "p02",
+                    "name": "Brooke Patel"
+                  }
+                ],
+                "reasons": [
+                  "Same pair as before, last played line 1. Record together: 2-0. (R5)"
+                ]
+              },
+              {
+                "line": 2,
+                "start": "1:00 PM",
+                "players": [
+                  {
+                    "id": "p03",
+                    "name": "Carla Ruiz"
+                  },
+                  {
+                    "id": "p12",
+                    "name": "Lena Fischer"
+                  }
+                ],
+                "reasons": [
+                  "Same pair as before, last played line 2. Record together: 1-1. (R5)"
+                ]
+              },
+              {
+                "line": 3,
+                "start": "2:00 PM",
+                "players": [
+                  {
+                    "id": "p05",
+                    "name": "Ellie Brooks"
+                  },
+                  {
+                    "id": "p06",
+                    "name": "Fran Okafor"
+                  }
+                ],
+                "reasons": [
+                  "Same pair as before, last played line 3. Record together: 1-1. (R5)"
+                ]
+              },
+              {
+                "line": 4,
+                "start": "2:00 PM",
+                "players": [
+                  {
+                    "id": "p13",
+                    "name": "Maya Singh"
+                  },
+                  {
+                    "id": "p15",
+                    "name": "Priya Shah"
+                  }
+                ],
+                "reasons": [
+                  "Same pair as before, last played line 4. Record together: 1-1. (R5)"
+                ]
+              },
+              {
+                "line": 5,
+                "start": "3:00 PM",
+                "players": [
+                  {
+                    "id": "p04",
+                    "name": "Dana Kim"
+                  },
+                  {
+                    "id": "p11",
+                    "name": "Kara Lewis"
+                  }
+                ],
+                "reasons": [
+                  "New pair. Dana hasn't played this season, Kara last played line 5; line 5 is within two lines for each. (R6)"
+                ]
+              }
+            ],
+            "bench": [
+              "p08",
+              "p16"
+            ],
+            "warnings": []
+          },
+          {
+            "rank": 2,
+            "lineup": [
+              [
+                "p01",
+                "p02"
+              ],
+              [
+                "p03",
+                "p12"
+              ],
+              [
+                "p05",
+                "p06"
+              ],
+              [
+                "p13",
+                "p15"
+              ],
+              [
+                "p11",
+                "p16"
+              ]
+            ],
+            "score": 43,
+            "breakdown": {
+              "move": 0,
+              "newcomer": 0,
+              "new_pair": 0,
+              "risky": 0,
+              "played": 19,
+              "side": 0,
+              "rank": 24,
+              "reserve": 0
+            },
+            "lines": [
+              {
+                "line": 1,
+                "start": "1:00 PM",
+                "players": [
+                  {
+                    "id": "p01",
+                    "name": "Ava Chen"
+                  },
+                  {
+                    "id": "p02",
+                    "name": "Brooke Patel"
+                  }
+                ],
+                "reasons": [
+                  "Same pair as before, last played line 1. Record together: 2-0. (R5)"
+                ]
+              },
+              {
+                "line": 2,
+                "start": "1:00 PM",
+                "players": [
+                  {
+                    "id": "p03",
+                    "name": "Carla Ruiz"
+                  },
+                  {
+                    "id": "p12",
+                    "name": "Lena Fischer"
+                  }
+                ],
+                "reasons": [
+                  "Same pair as before, last played line 2. Record together: 1-1. (R5)"
+                ]
+              },
+              {
+                "line": 3,
+                "start": "2:00 PM",
+                "players": [
+                  {
+                    "id": "p05",
+                    "name": "Ellie Brooks"
+                  },
+                  {
+                    "id": "p06",
+                    "name": "Fran Okafor"
+                  }
+                ],
+                "reasons": [
+                  "Same pair as before, last played line 3. Record together: 1-1. (R5)"
+                ]
+              },
+              {
+                "line": 4,
+                "start": "2:00 PM",
+                "players": [
+                  {
+                    "id": "p13",
+                    "name": "Maya Singh"
+                  },
+                  {
+                    "id": "p15",
+                    "name": "Priya Shah"
+                  }
+                ],
+                "reasons": [
+                  "Same pair as before, last played line 4. Record together: 1-1. (R5)"
+                ]
+              },
+              {
+                "line": 5,
+                "start": "3:00 PM",
+                "players": [
+                  {
+                    "id": "p11",
+                    "name": "Kara Lewis"
+                  },
+                  {
+                    "id": "p16",
+                    "name": "Sam Torres"
+                  }
+                ],
+                "reasons": [
+                  "Same pair as before, last played line 5. Record together: 1-0. (R5)"
+                ]
+              }
+            ],
+            "bench": [
+              "p04",
+              "p08"
+            ],
+            "warnings": []
+          },
+          {
+            "rank": 3,
+            "lineup": [
+              [
+                "p01",
+                "p02"
+              ],
+              [
+                "p03",
+                "p12"
+              ],
+              [
+                "p05",
+                "p06"
+              ],
+              [
+                "p13",
+                "p15"
+              ],
+              [
+                "p04",
+                "p08"
+              ]
+            ],
+            "score": 47,
+            "breakdown": {
+              "move": 0,
+              "newcomer": 0,
+              "new_pair": 6,
+              "risky": 0,
+              "played": 17,
+              "side": 0,
+              "rank": 24,
+              "reserve": 0
+            },
+            "lines": [
+              {
+                "line": 1,
+                "start": "1:00 PM",
+                "players": [
+                  {
+                    "id": "p01",
+                    "name": "Ava Chen"
+                  },
+                  {
+                    "id": "p02",
+                    "name": "Brooke Patel"
+                  }
+                ],
+                "reasons": [
+                  "Same pair as before, last played line 1. Record together: 2-0. (R5)"
+                ]
+              },
+              {
+                "line": 2,
+                "start": "1:00 PM",
+                "players": [
+                  {
+                    "id": "p03",
+                    "name": "Carla Ruiz"
+                  },
+                  {
+                    "id": "p12",
+                    "name": "Lena Fischer"
+                  }
+                ],
+                "reasons": [
+                  "Same pair as before, last played line 2. Record together: 1-1. (R5)"
+                ]
+              },
+              {
+                "line": 3,
+                "start": "2:00 PM",
+                "players": [
+                  {
+                    "id": "p05",
+                    "name": "Ellie Brooks"
+                  },
+                  {
+                    "id": "p06",
+                    "name": "Fran Okafor"
+                  }
+                ],
+                "reasons": [
+                  "Same pair as before, last played line 3. Record together: 1-1. (R5)"
+                ]
+              },
+              {
+                "line": 4,
+                "start": "2:00 PM",
+                "players": [
+                  {
+                    "id": "p13",
+                    "name": "Maya Singh"
+                  },
+                  {
+                    "id": "p15",
+                    "name": "Priya Shah"
+                  }
+                ],
+                "reasons": [
+                  "Same pair as before, last played line 4. Record together: 1-1. (R5)"
+                ]
+              },
+              {
+                "line": 5,
+                "start": "3:00 PM",
+                "players": [
+                  {
+                    "id": "p04",
+                    "name": "Dana Kim"
+                  },
+                  {
+                    "id": "p08",
+                    "name": "Hana Sato"
+                  }
+                ],
+                "reasons": [
+                  "New pair. Dana hasn't played this season, Hana last played line 5; line 5 is within two lines for each. (R6)"
+                ]
+              }
+            ],
+            "bench": [
+              "p11",
+              "p16"
+            ],
+            "warnings": []
+          }
+        ],
+        "pool": [
+          "p01",
+          "p02",
+          "p03",
+          "p04",
+          "p05",
+          "p06",
+          "p08",
+          "p11",
+          "p12",
+          "p13",
+          "p15",
+          "p16"
+        ],
+        "complete": true,
+        "candidates_per_line": [
+          20,
+          35,
+          63,
+          44,
+          27
+        ],
+        "rejected_at_leaf": {},
+        "none_reason": null
+      },
+      {
+        "scenario": "Fixed pair and a player rested",
+        "options": [
+          {
+            "rank": 1,
+            "lineup": [
+              [
+                "p02",
+                "p04"
+              ],
+              [
+                "p03",
+                "p12"
+              ],
+              [
+                "p05",
+                "p06"
+              ],
+              [
+                "p13",
+                "p15"
+              ],
+              [
+                "p08",
+                "p16"
+              ]
+            ],
+            "score": 23,
+            "breakdown": {
+              "move": 0,
+              "newcomer": 0,
+              "new_pair": 6,
+              "risky": 0,
+              "played": 17,
+              "side": 0,
+              "rank": 0,
+              "reserve": 0
+            },
+            "lines": [
+              {
+                "line": 1,
+                "start": "1:00 PM",
+                "players": [
+                  {
+                    "id": "p02",
+                    "name": "Brooke Patel"
+                  },
+                  {
+                    "id": "p04",
+                    "name": "Dana Kim"
+                  }
+                ],
+                "reasons": [
+                  "New pair. Brooke last played line 1, Dana hasn't played this season; line 1 is within two lines for each. (R6)"
+                ]
+              },
+              {
+                "line": 2,
+                "start": "1:00 PM",
+                "players": [
+                  {
+                    "id": "p03",
+                    "name": "Carla Ruiz"
+                  },
+                  {
+                    "id": "p12",
+                    "name": "Lena Fischer"
+                  }
+                ],
+                "reasons": [
+                  "Same pair as before, last played line 2. Record together: 1-1. (R5)"
+                ]
+              },
+              {
+                "line": 3,
+                "start": "2:00 PM",
+                "players": [
+                  {
+                    "id": "p05",
+                    "name": "Ellie Brooks"
+                  },
+                  {
+                    "id": "p06",
+                    "name": "Fran Okafor"
+                  }
+                ],
+                "reasons": [
+                  "Same pair as before, last played line 3. Record together: 1-1. (R5)"
+                ]
+              },
+              {
+                "line": 4,
+                "start": "2:00 PM",
+                "players": [
+                  {
+                    "id": "p13",
+                    "name": "Maya Singh"
+                  },
+                  {
+                    "id": "p15",
+                    "name": "Priya Shah"
+                  }
+                ],
+                "reasons": [
+                  "Same pair as before, last played line 4. Record together: 1-1. (R5)"
+                ]
+              },
+              {
+                "line": 5,
+                "start": "3:00 PM",
+                "players": [
+                  {
+                    "id": "p08",
+                    "name": "Hana Sato"
+                  },
+                  {
+                    "id": "p16",
+                    "name": "Sam Torres"
+                  }
+                ],
+                "reasons": [
+                  "Same pair as before, last played line 5. Record together: 0-1. (R5)"
+                ]
+              }
+            ],
+            "bench": [
+              "p11"
+            ],
+            "warnings": []
+          },
+          {
+            "rank": 2,
+            "lineup": [
+              [
+                "p02",
+                "p04"
+              ],
+              [
+                "p03",
+                "p12"
+              ],
+              [
+                "p05",
+                "p06"
+              ],
+              [
+                "p13",
+                "p15"
+              ],
+              [
+                "p11",
+                "p16"
+              ]
+            ],
+            "score": 23,
+            "breakdown": {
+              "move": 0,
+              "newcomer": 0,
+              "new_pair": 6,
+              "risky": 0,
+              "played": 17,
+              "side": 0,
+              "rank": 0,
+              "reserve": 0
+            },
+            "lines": [
+              {
+                "line": 1,
+                "start": "1:00 PM",
+                "players": [
+                  {
+                    "id": "p02",
+                    "name": "Brooke Patel"
+                  },
+                  {
+                    "id": "p04",
+                    "name": "Dana Kim"
+                  }
+                ],
+                "reasons": [
+                  "New pair. Brooke last played line 1, Dana hasn't played this season; line 1 is within two lines for each. (R6)"
+                ]
+              },
+              {
+                "line": 2,
+                "start": "1:00 PM",
+                "players": [
+                  {
+                    "id": "p03",
+                    "name": "Carla Ruiz"
+                  },
+                  {
+                    "id": "p12",
+                    "name": "Lena Fischer"
+                  }
+                ],
+                "reasons": [
+                  "Same pair as before, last played line 2. Record together: 1-1. (R5)"
+                ]
+              },
+              {
+                "line": 3,
+                "start": "2:00 PM",
+                "players": [
+                  {
+                    "id": "p05",
+                    "name": "Ellie Brooks"
+                  },
+                  {
+                    "id": "p06",
+                    "name": "Fran Okafor"
+                  }
+                ],
+                "reasons": [
+                  "Same pair as before, last played line 3. Record together: 1-1. (R5)"
+                ]
+              },
+              {
+                "line": 4,
+                "start": "2:00 PM",
+                "players": [
+                  {
+                    "id": "p13",
+                    "name": "Maya Singh"
+                  },
+                  {
+                    "id": "p15",
+                    "name": "Priya Shah"
+                  }
+                ],
+                "reasons": [
+                  "Same pair as before, last played line 4. Record together: 1-1. (R5)"
+                ]
+              },
+              {
+                "line": 5,
+                "start": "3:00 PM",
+                "players": [
+                  {
+                    "id": "p11",
+                    "name": "Kara Lewis"
+                  },
+                  {
+                    "id": "p16",
+                    "name": "Sam Torres"
+                  }
+                ],
+                "reasons": [
+                  "Same pair as before, last played line 5. Record together: 1-0. (R5)"
+                ]
+              }
+            ],
+            "bench": [
+              "p08"
+            ],
+            "warnings": []
+          },
+          {
+            "rank": 3,
+            "lineup": [
+              [
+                "p02",
+                "p04"
+              ],
+              [
+                "p03",
+                "p12"
+              ],
+              [
+                "p05",
+                "p06"
+              ],
+              [
+                "p13",
+                "p15"
+              ],
+              [
+                "p08",
+                "p11"
+              ]
+            ],
+            "score": 28,
+            "breakdown": {
+              "move": 0,
+              "newcomer": 0,
+              "new_pair": 12,
+              "risky": 0,
+              "played": 16,
+              "side": 0,
+              "rank": 0,
+              "reserve": 0
+            },
+            "lines": [
+              {
+                "line": 1,
+                "start": "1:00 PM",
+                "players": [
+                  {
+                    "id": "p02",
+                    "name": "Brooke Patel"
+                  },
+                  {
+                    "id": "p04",
+                    "name": "Dana Kim"
+                  }
+                ],
+                "reasons": [
+                  "New pair. Brooke last played line 1, Dana hasn't played this season; line 1 is within two lines for each. (R6)"
+                ]
+              },
+              {
+                "line": 2,
+                "start": "1:00 PM",
+                "players": [
+                  {
+                    "id": "p03",
+                    "name": "Carla Ruiz"
+                  },
+                  {
+                    "id": "p12",
+                    "name": "Lena Fischer"
+                  }
+                ],
+                "reasons": [
+                  "Same pair as before, last played line 2. Record together: 1-1. (R5)"
+                ]
+              },
+              {
+                "line": 3,
+                "start": "2:00 PM",
+                "players": [
+                  {
+                    "id": "p05",
+                    "name": "Ellie Brooks"
+                  },
+                  {
+                    "id": "p06",
+                    "name": "Fran Okafor"
+                  }
+                ],
+                "reasons": [
+                  "Same pair as before, last played line 3. Record together: 1-1. (R5)"
+                ]
+              },
+              {
+                "line": 4,
+                "start": "2:00 PM",
+                "players": [
+                  {
+                    "id": "p13",
+                    "name": "Maya Singh"
+                  },
+                  {
+                    "id": "p15",
+                    "name": "Priya Shah"
+                  }
+                ],
+                "reasons": [
+                  "Same pair as before, last played line 4. Record together: 1-1. (R5)"
+                ]
+              },
+              {
+                "line": 5,
+                "start": "3:00 PM",
+                "players": [
+                  {
+                    "id": "p08",
+                    "name": "Hana Sato"
+                  },
+                  {
+                    "id": "p11",
+                    "name": "Kara Lewis"
+                  }
+                ],
+                "reasons": [
+                  "New pair. Hana last played line 5, Kara last played line 5; line 5 is within two lines for each. (R6)"
+                ]
+              }
+            ],
+            "bench": [
+              "p16"
+            ],
+            "warnings": []
+          }
+        ],
+        "pool": [
+          "p02",
+          "p03",
+          "p04",
+          "p05",
+          "p06",
+          "p08",
+          "p11",
+          "p12",
+          "p13",
+          "p15",
+          "p16"
+        ],
+        "complete": true,
+        "candidates_per_line": [
+          14,
+          27,
+          1,
+          44,
+          27
+        ],
+        "rejected_at_leaf": {},
+        "none_reason": null
+      },
+      {
+        "scenario": "Emergency sub needed",
+        "options": [
+          {
+            "rank": 1,
+            "lineup": [
+              [
+                "p01",
+                "p02"
+              ],
+              [
+                "p03",
+                "p12"
+              ],
+              [
+                "p05",
+                "p06"
+              ],
+              [
+                "p04",
+                "p15"
+              ],
+              [
+                "p08",
+                "p16"
+              ]
+            ],
+            "score": 33,
+            "breakdown": {
+              "move": 0,
+              "newcomer": 0,
+              "new_pair": 6,
+              "risky": 0,
+              "played": 17,
+              "side": 0,
+              "rank": 0,
+              "reserve": 10
+            },
+            "lines": [
+              {
+                "line": 1,
+                "start": "1:00 PM",
+                "players": [
+                  {
+                    "id": "p01",
+                    "name": "Ava Chen"
+                  },
+                  {
+                    "id": "p02",
+                    "name": "Brooke Patel"
+                  }
+                ],
+                "reasons": [
+                  "Same pair as before, last played line 1. Record together: 2-0. (R5)"
+                ]
+              },
+              {
+                "line": 2,
+                "start": "1:00 PM",
+                "players": [
+                  {
+                    "id": "p03",
+                    "name": "Carla Ruiz"
+                  },
+                  {
+                    "id": "p12",
+                    "name": "Lena Fischer"
+                  }
+                ],
+                "reasons": [
+                  "Same pair as before, last played line 2. Record together: 1-1. (R5)"
+                ]
+              },
+              {
+                "line": 3,
+                "start": "2:00 PM",
+                "players": [
+                  {
+                    "id": "p05",
+                    "name": "Ellie Brooks"
+                  },
+                  {
+                    "id": "p06",
+                    "name": "Fran Okafor"
+                  }
+                ],
+                "reasons": [
+                  "Same pair as before, last played line 3. Record together: 1-1. (R5)"
+                ]
+              },
+              {
+                "line": 4,
+                "start": "2:00 PM",
+                "players": [
+                  {
+                    "id": "p04",
+                    "name": "Dana Kim"
+                  },
+                  {
+                    "id": "p15",
+                    "name": "Priya Shah"
+                  }
+                ],
+                "reasons": [
+                  "New pair. Dana hasn't played this season, Priya last played line 4; line 4 is within two lines for each. (R6)"
+                ]
+              },
+              {
+                "line": 5,
+                "start": "3:00 PM",
+                "players": [
+                  {
+                    "id": "p08",
+                    "name": "Hana Sato"
+                  },
+                  {
+                    "id": "p16",
+                    "name": "Sam Torres"
+                  }
+                ],
+                "reasons": [
+                  "Same pair as before, last played line 5. Record together: 0-1. (R5)"
+                ]
+              }
+            ],
+            "bench": [],
+            "warnings": [
+              "Dana Kim said she would play only if needed."
+            ]
+          },
+          {
+            "rank": 2,
+            "lineup": [
+              [
+                "p01",
+                "p02"
+              ],
+              [
+                "p03",
+                "p12"
+              ],
+              [
+                "p05",
+                "p06"
+              ],
+              [
+                "p08",
+                "p15"
+              ],
+              [
+                "p04",
+                "p16"
+              ]
+            ],
+            "score": 43,
+            "breakdown": {
+              "move": 4,
+              "newcomer": 0,
+              "new_pair": 12,
+              "risky": 0,
+              "played": 17,
+              "side": 0,
+              "rank": 0,
+              "reserve": 10
+            },
+            "lines": [
+              {
+                "line": 1,
+                "start": "1:00 PM",
+                "players": [
+                  {
+                    "id": "p01",
+                    "name": "Ava Chen"
+                  },
+                  {
+                    "id": "p02",
+                    "name": "Brooke Patel"
+                  }
+                ],
+                "reasons": [
+                  "Same pair as before, last played line 1. Record together: 2-0. (R5)"
+                ]
+              },
+              {
+                "line": 2,
+                "start": "1:00 PM",
+                "players": [
+                  {
+                    "id": "p03",
+                    "name": "Carla Ruiz"
+                  },
+                  {
+                    "id": "p12",
+                    "name": "Lena Fischer"
+                  }
+                ],
+                "reasons": [
+                  "Same pair as before, last played line 2. Record together: 1-1. (R5)"
+                ]
+              },
+              {
+                "line": 3,
+                "start": "2:00 PM",
+                "players": [
+                  {
+                    "id": "p05",
+                    "name": "Ellie Brooks"
+                  },
+                  {
+                    "id": "p06",
+                    "name": "Fran Okafor"
+                  }
+                ],
+                "reasons": [
+                  "Same pair as before, last played line 3. Record together: 1-1. (R5)"
+                ]
+              },
+              {
+                "line": 4,
+                "start": "2:00 PM",
+                "players": [
+                  {
+                    "id": "p08",
+                    "name": "Hana Sato"
+                  },
+                  {
+                    "id": "p15",
+                    "name": "Priya Shah"
+                  }
+                ],
+                "reasons": [
+                  "New pair. Hana last played line 5, Priya last played line 4; line 4 is within two lines for each. (R6)"
+                ]
+              },
+              {
+                "line": 5,
+                "start": "3:00 PM",
+                "players": [
+                  {
+                    "id": "p04",
+                    "name": "Dana Kim"
+                  },
+                  {
+                    "id": "p16",
+                    "name": "Sam Torres"
+                  }
+                ],
+                "reasons": [
+                  "New pair. Dana hasn't played this season, Sam last played line 5; line 5 is within two lines for each. (R6)"
+                ]
+              }
+            ],
+            "bench": [],
+            "warnings": [
+              "Dana Kim said she would play only if needed."
+            ]
+          },
+          {
+            "rank": 3,
+            "lineup": [
+              [
+                "p01",
+                "p02"
+              ],
+              [
+                "p03",
+                "p12"
+              ],
+              [
+                "p05",
+                "p06"
+              ],
+              [
+                "p15",
+                "p16"
+              ],
+              [
+                "p04",
+                "p08"
+              ]
+            ],
+            "score": 43,
+            "breakdown": {
+              "move": 4,
+              "newcomer": 0,
+              "new_pair": 12,
+              "risky": 0,
+              "played": 17,
+              "side": 0,
+              "rank": 0,
+              "reserve": 10
+            },
+            "lines": [
+              {
+                "line": 1,
+                "start": "1:00 PM",
+                "players": [
+                  {
+                    "id": "p01",
+                    "name": "Ava Chen"
+                  },
+                  {
+                    "id": "p02",
+                    "name": "Brooke Patel"
+                  }
+                ],
+                "reasons": [
+                  "Same pair as before, last played line 1. Record together: 2-0. (R5)"
+                ]
+              },
+              {
+                "line": 2,
+                "start": "1:00 PM",
+                "players": [
+                  {
+                    "id": "p03",
+                    "name": "Carla Ruiz"
+                  },
+                  {
+                    "id": "p12",
+                    "name": "Lena Fischer"
+                  }
+                ],
+                "reasons": [
+                  "Same pair as before, last played line 2. Record together: 1-1. (R5)"
+                ]
+              },
+              {
+                "line": 3,
+                "start": "2:00 PM",
+                "players": [
+                  {
+                    "id": "p05",
+                    "name": "Ellie Brooks"
+                  },
+                  {
+                    "id": "p06",
+                    "name": "Fran Okafor"
+                  }
+                ],
+                "reasons": [
+                  "Same pair as before, last played line 3. Record together: 1-1. (R5)"
+                ]
+              },
+              {
+                "line": 4,
+                "start": "2:00 PM",
+                "players": [
+                  {
+                    "id": "p15",
+                    "name": "Priya Shah"
+                  },
+                  {
+                    "id": "p16",
+                    "name": "Sam Torres"
+                  }
+                ],
+                "reasons": [
+                  "New pair. Priya last played line 4, Sam last played line 5; line 4 is within two lines for each. (R6)"
+                ]
+              },
+              {
+                "line": 5,
+                "start": "3:00 PM",
+                "players": [
+                  {
+                    "id": "p04",
+                    "name": "Dana Kim"
+                  },
+                  {
+                    "id": "p08",
+                    "name": "Hana Sato"
+                  }
+                ],
+                "reasons": [
+                  "New pair. Dana hasn't played this season, Hana last played line 5; line 5 is within two lines for each. (R6)"
+                ]
+              }
+            ],
+            "bench": [],
+            "warnings": [
+              "Dana Kim said she would play only if needed."
+            ]
+          }
+        ],
+        "pool": [
+          "p01",
+          "p02",
+          "p03",
+          "p04",
+          "p05",
+          "p06",
+          "p08",
+          "p12",
+          "p15",
+          "p16"
+        ],
+        "complete": true,
+        "candidates_per_line": [
+          20,
+          28,
+          43,
+          27,
+          14
+        ],
+        "rejected_at_leaf": {},
+        "none_reason": null
+      },
+      {
+        "scenario": "Time limit might not fit",
+        "options": [
+          {
+            "rank": 1,
+            "lineup": [
+              [
+                "p01",
+                "p02"
+              ],
+              [
+                "p03",
+                "p12"
+              ],
+              [
+                "p05",
+                "p06"
+              ],
+              [
+                "p13",
+                "p15"
+              ],
+              [
+                "p08",
+                "p16"
+              ]
+            ],
+            "score": 31,
+            "breakdown": {
+              "move": 0,
+              "newcomer": 0,
+              "new_pair": 0,
+              "risky": 12,
+              "played": 19,
+              "side": 0,
+              "rank": 0,
+              "reserve": 0
+            },
+            "lines": [
+              {
+                "line": 1,
+                "start": "1:00 PM",
+                "players": [
+                  {
+                    "id": "p01",
+                    "name": "Ava Chen"
+                  },
+                  {
+                    "id": "p02",
+                    "name": "Brooke Patel"
+                  }
+                ],
+                "reasons": [
+                  "Same pair as before, last played line 1. Record together: 2-0. (R5)"
+                ]
+              },
+              {
+                "line": 2,
+                "start": "1:00 PM",
+                "players": [
+                  {
+                    "id": "p03",
+                    "name": "Carla Ruiz"
+                  },
+                  {
+                    "id": "p12",
+                    "name": "Lena Fischer"
+                  }
+                ],
+                "reasons": [
+                  "Same pair as before, last played line 2. Record together: 1-1. (R5)",
+                  "Lena: fits a 1-hour line, not a long one."
+                ]
+              },
+              {
+                "line": 3,
+                "start": "2:00 PM",
+                "players": [
+                  {
+                    "id": "p05",
+                    "name": "Ellie Brooks"
+                  },
+                  {
+                    "id": "p06",
+                    "name": "Fran Okafor"
+                  }
+                ],
+                "reasons": [
+                  "Same pair as before, last played line 3. Record together: 1-1. (R5)"
+                ]
+              },
+              {
+                "line": 4,
+                "start": "2:00 PM",
+                "players": [
+                  {
+                    "id": "p13",
+                    "name": "Maya Singh"
+                  },
+                  {
+                    "id": "p15",
+                    "name": "Priya Shah"
+                  }
+                ],
+                "reasons": [
+                  "Same pair as before, last played line 4. Record together: 1-1. (R5)"
+                ]
+              },
+              {
+                "line": 5,
+                "start": "3:00 PM",
+                "players": [
+                  {
+                    "id": "p08",
+                    "name": "Hana Sato"
+                  },
+                  {
+                    "id": "p16",
+                    "name": "Sam Torres"
+                  }
+                ],
+                "reasons": [
+                  "Same pair as before, last played line 5. Record together: 0-1. (R5)"
+                ]
+              }
+            ],
+            "bench": [
+              "p04",
+              "p11"
+            ],
+            "warnings": [
+              "Lena may have to leave early if line 2 runs long."
+            ]
+          },
+          {
+            "rank": 2,
+            "lineup": [
+              [
+                "p01",
+                "p02"
+              ],
+              [
+                "p03",
+                "p12"
+              ],
+              [
+                "p05",
+                "p06"
+              ],
+              [
+                "p13",
+                "p15"
+              ],
+              [
+                "p11",
+                "p16"
+              ]
+            ],
+            "score": 31,
+            "breakdown": {
+              "move": 0,
+              "newcomer": 0,
+              "new_pair": 0,
+              "risky": 12,
+              "played": 19,
+              "side": 0,
+              "rank": 0,
+              "reserve": 0
+            },
+            "lines": [
+              {
+                "line": 1,
+                "start": "1:00 PM",
+                "players": [
+                  {
+                    "id": "p01",
+                    "name": "Ava Chen"
+                  },
+                  {
+                    "id": "p02",
+                    "name": "Brooke Patel"
+                  }
+                ],
+                "reasons": [
+                  "Same pair as before, last played line 1. Record together: 2-0. (R5)"
+                ]
+              },
+              {
+                "line": 2,
+                "start": "1:00 PM",
+                "players": [
+                  {
+                    "id": "p03",
+                    "name": "Carla Ruiz"
+                  },
+                  {
+                    "id": "p12",
+                    "name": "Lena Fischer"
+                  }
+                ],
+                "reasons": [
+                  "Same pair as before, last played line 2. Record together: 1-1. (R5)",
+                  "Lena: fits a 1-hour line, not a long one."
+                ]
+              },
+              {
+                "line": 3,
+                "start": "2:00 PM",
+                "players": [
+                  {
+                    "id": "p05",
+                    "name": "Ellie Brooks"
+                  },
+                  {
+                    "id": "p06",
+                    "name": "Fran Okafor"
+                  }
+                ],
+                "reasons": [
+                  "Same pair as before, last played line 3. Record together: 1-1. (R5)"
+                ]
+              },
+              {
+                "line": 4,
+                "start": "2:00 PM",
+                "players": [
+                  {
+                    "id": "p13",
+                    "name": "Maya Singh"
+                  },
+                  {
+                    "id": "p15",
+                    "name": "Priya Shah"
+                  }
+                ],
+                "reasons": [
+                  "Same pair as before, last played line 4. Record together: 1-1. (R5)"
+                ]
+              },
+              {
+                "line": 5,
+                "start": "3:00 PM",
+                "players": [
+                  {
+                    "id": "p11",
+                    "name": "Kara Lewis"
+                  },
+                  {
+                    "id": "p16",
+                    "name": "Sam Torres"
+                  }
+                ],
+                "reasons": [
+                  "Same pair as before, last played line 5. Record together: 1-0. (R5)"
+                ]
+              }
+            ],
+            "bench": [
+              "p04",
+              "p08"
+            ],
+            "warnings": [
+              "Lena may have to leave early if line 2 runs long."
+            ]
+          },
+          {
+            "rank": 3,
+            "lineup": [
+              [
+                "p01",
+                "p02"
+              ],
+              [
+                "p03",
+                "p12"
+              ],
+              [
+                "p05",
+                "p06"
+              ],
+              [
+                "p13",
+                "p15"
+              ],
+              [
+                "p04",
+                "p08"
+              ]
+            ],
+            "score": 35,
+            "breakdown": {
+              "move": 0,
+              "newcomer": 0,
+              "new_pair": 6,
+              "risky": 12,
+              "played": 17,
+              "side": 0,
+              "rank": 0,
+              "reserve": 0
+            },
+            "lines": [
+              {
+                "line": 1,
+                "start": "1:00 PM",
+                "players": [
+                  {
+                    "id": "p01",
+                    "name": "Ava Chen"
+                  },
+                  {
+                    "id": "p02",
+                    "name": "Brooke Patel"
+                  }
+                ],
+                "reasons": [
+                  "Same pair as before, last played line 1. Record together: 2-0. (R5)"
+                ]
+              },
+              {
+                "line": 2,
+                "start": "1:00 PM",
+                "players": [
+                  {
+                    "id": "p03",
+                    "name": "Carla Ruiz"
+                  },
+                  {
+                    "id": "p12",
+                    "name": "Lena Fischer"
+                  }
+                ],
+                "reasons": [
+                  "Same pair as before, last played line 2. Record together: 1-1. (R5)",
+                  "Lena: fits a 1-hour line, not a long one."
+                ]
+              },
+              {
+                "line": 3,
+                "start": "2:00 PM",
+                "players": [
+                  {
+                    "id": "p05",
+                    "name": "Ellie Brooks"
+                  },
+                  {
+                    "id": "p06",
+                    "name": "Fran Okafor"
+                  }
+                ],
+                "reasons": [
+                  "Same pair as before, last played line 3. Record together: 1-1. (R5)"
+                ]
+              },
+              {
+                "line": 4,
+                "start": "2:00 PM",
+                "players": [
+                  {
+                    "id": "p13",
+                    "name": "Maya Singh"
+                  },
+                  {
+                    "id": "p15",
+                    "name": "Priya Shah"
+                  }
+                ],
+                "reasons": [
+                  "Same pair as before, last played line 4. Record together: 1-1. (R5)"
+                ]
+              },
+              {
+                "line": 5,
+                "start": "3:00 PM",
+                "players": [
+                  {
+                    "id": "p04",
+                    "name": "Dana Kim"
+                  },
+                  {
+                    "id": "p08",
+                    "name": "Hana Sato"
+                  }
+                ],
+                "reasons": [
+                  "New pair. Dana hasn't played this season, Hana last played line 5; line 5 is within two lines for each. (R6)"
+                ]
+              }
+            ],
+            "bench": [
+              "p11",
+              "p16"
+            ],
+            "warnings": [
+              "Lena may have to leave early if line 2 runs long."
+            ]
+          }
+        ],
+        "pool": [
+          "p01",
+          "p02",
+          "p03",
+          "p04",
+          "p05",
+          "p06",
+          "p08",
+          "p11",
+          "p12",
+          "p13",
+          "p15",
+          "p16"
+        ],
+        "complete": true,
+        "candidates_per_line": [
+          20,
+          1,
+          52,
+          36,
+          27
+        ],
+        "rejected_at_leaf": {},
+        "none_reason": null
+      },
+      {
+        "scenario": "Search limit reached",
+        "options": [
+          {
+            "rank": 1,
+            "lineup": [
+              [
+                "p01",
+                "p02"
+              ],
+              [
+                "p03",
+                "p12"
+              ],
+              [
+                "p05",
+                "p06"
+              ],
+              [
+                "p13",
+                "p15"
+              ],
+              [
+                "p08",
+                "p16"
+              ]
+            ],
+            "score": 19,
+            "breakdown": {
+              "move": 0,
+              "newcomer": 0,
+              "new_pair": 0,
+              "risky": 0,
+              "played": 19,
+              "side": 0,
+              "rank": 0,
+              "reserve": 0
+            },
+            "lines": [
+              {
+                "line": 1,
+                "start": "1:00 PM",
+                "players": [
+                  {
+                    "id": "p01",
+                    "name": "Ava Chen"
+                  },
+                  {
+                    "id": "p02",
+                    "name": "Brooke Patel"
+                  }
+                ],
+                "reasons": [
+                  "Same pair as before, last played line 1. Record together: 2-0. (R5)"
+                ]
+              },
+              {
+                "line": 2,
+                "start": "1:00 PM",
+                "players": [
+                  {
+                    "id": "p03",
+                    "name": "Carla Ruiz"
+                  },
+                  {
+                    "id": "p12",
+                    "name": "Lena Fischer"
+                  }
+                ],
+                "reasons": [
+                  "Same pair as before, last played line 2. Record together: 1-1. (R5)"
+                ]
+              },
+              {
+                "line": 3,
+                "start": "2:00 PM",
+                "players": [
+                  {
+                    "id": "p05",
+                    "name": "Ellie Brooks"
+                  },
+                  {
+                    "id": "p06",
+                    "name": "Fran Okafor"
+                  }
+                ],
+                "reasons": [
+                  "Same pair as before, last played line 3. Record together: 1-1. (R5)"
+                ]
+              },
+              {
+                "line": 4,
+                "start": "2:00 PM",
+                "players": [
+                  {
+                    "id": "p13",
+                    "name": "Maya Singh"
+                  },
+                  {
+                    "id": "p15",
+                    "name": "Priya Shah"
+                  }
+                ],
+                "reasons": [
+                  "Same pair as before, last played line 4. Record together: 1-1. (R5)"
+                ]
+              },
+              {
+                "line": 5,
+                "start": "3:00 PM",
+                "players": [
+                  {
+                    "id": "p08",
+                    "name": "Hana Sato"
+                  },
+                  {
+                    "id": "p16",
+                    "name": "Sam Torres"
+                  }
+                ],
+                "reasons": [
+                  "Same pair as before, last played line 5. Record together: 0-1. (R5)"
+                ]
+              }
+            ],
+            "bench": [
+              "p04",
+              "p11"
+            ],
+            "warnings": []
+          }
+        ],
+        "pool": [
+          "p01",
+          "p02",
+          "p03",
+          "p04",
+          "p05",
+          "p06",
+          "p08",
+          "p11",
+          "p12",
+          "p13",
+          "p15",
+          "p16"
+        ],
+        "complete": false,
+        "candidates_per_line": [
+          20,
+          35,
+          63,
+          44,
+          27
+        ],
+        "rejected_at_leaf": {},
+        "none_reason": null
+      }
+    ]
+  }
+}
