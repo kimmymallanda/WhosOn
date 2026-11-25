@@ -1,0 +1,9 @@
+Name,Email,Mobile,Level Flight,Preferred Side
+Ava Test,ava@example.com,404-555-0101,AA-3,ad
+,noname@example.com,404-555-0102,AA-3,ad
+Bea Test,,404-555-0103,AA-3,ad
+Cy Test,not-an-email,404-555-0104,AA-3,ad
+Dee Test,ava@example.com,404-555-0105,AA-3,ad
+Ava Test,ava.two@example.com,404-555-0106,AA-3,ad
+,,,,
+Eli Test,eli@example.com,12345,AA-9,sideways
