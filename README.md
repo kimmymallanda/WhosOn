@@ -1,4 +1,4 @@
-# Tennis Captain Agent
+# WhosOn
 
 A co-captain for adult league tennis teams: it texts every player, builds a valid and fair lineup, and finds the sub at 9pm.
 

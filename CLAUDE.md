@@ -1,4 +1,4 @@
-# Tennis Captain Agent
+# WhosOn
 
 Course project for the Master Agentic AI Certification (Maven, Nov 2026 – Jan 2027). Pitch Day: Jan 11–12, 2027.
 
@@ -6,7 +6,7 @@ Course project for the Master Agentic AI Certification (Maven, Nov 2026 – Jan 
 An agent that acts as co-captain for an adult league tennis team (USTA or similar). It texts each player one-on-one for availability, reads their messy plain-language replies, builds a valid and fair lineup, and finds a sub when someone drops at 9pm. The captain approves with one tap.
 
 - PRD (Claude doc): https://claude.ai/artifact/1SrD5p3L9pPizfviMSjTwD
-- PRD (Word copy): `docs/Tennis_Captain_Agent_PRD.docx`
+- PRD (Word copy): `docs/WhosOn_PRD.docx`
 - Project plan: https://claude.ai/artifact/AKoMJWQbiubj2SHJyM59ia
 
 ## League: ALTA
@@ -55,11 +55,29 @@ python n8n/build_nodes.py                   # regenerate the n8n Code-node files
 
 ## n8n nodes
 n8n Cloud cannot run the Python modules, so the rules and time-fit logic also exist as JavaScript in n8n Code nodes:
-- `n8n/src/rules_core.js`, `n8n/src/time_fit_core.js` and `n8n/src/planner_core.js` are JavaScript copies of `src/rules_checker.py`, `src/line_times.py` and `src/planner.py`.
+- `n8n/src/rules_core.js`, `n8n/src/time_fit_core.js` and `n8n/src/planner_core.js` are JavaScript copies of `src/rules_checker.py`, `src/line_times.py` and `src/planner.py`. `n8n/src/setup_core.js` has no Python copy.
 - `python n8n/build_nodes.py` combines them with the data in `data/*.json` and writes `n8n/nodes/*.js` (paste into Code nodes) and `n8n/checker_cases.json` (test cases plus the Python answers).
 - `tests/test_n8n_nodes.py` runs the generated node code in Node.js and requires the same output as Python, messages included. **When you change a rule, change both the Python and the JavaScript, rebuild, and keep the tests green.**
-- Live workflow "Tennis Captain Agent" in n8n has three trigger paths. Reading replies: parser, then `Line time fit` after a reply is recorded. `When clicking 'Check lineups'`: `Lineups to check` then `Rules checker`. `When clicking 'Plan lineups'`: `Planner scenarios`, `Lineup planner`, `Options to check`, then `Rules checker` again as a second, independent check on every option. Roster, config and season history are embedded as sample data in the planner and checker nodes. Moving them to n8n Data Tables is the next step.
+- Live n8n workflows, each on its own canvas with a note explaining what it does and how it connects:
+  - **Weekly 1 of 3 - Read player replies**: the parser, the follow-up question, and which lines fit a time limit. Uses 20 sample replies for now.
+  - **Weekly 2 of 3 - Check a lineup (ALTA rules)**: the rules checker (R1-R7). Called by workflow 3, and runnable by hand with sample lineups.
+  - **Weekly 3 of 3 - Plan lineups (ALTA rules)**: the planner. It sends every option it proposes to workflow 2 for a second, independent check.
+  - Roster, config and season history are still embedded as sample data in the planner and checker nodes. They move to the data tables below next.
+- Setup workflows (all built, tested with sample data), each its own canvas named "Setup N of 5 - ...": **1 Invite a captain (email)** (you run it; saves the invite, Gmail send off), **2 Confirm league and season** (form path `tca-setup-2-league`), **3 Upload the roster** (`tca-setup-3-roster`), **4 Upload the schedule** (`tca-setup-4-schedule`; accepts Excel, CSV, or the printed ALTA division schedule PDF as is, which it reads by text with no AI: the captain types her team number, or it is matched from her name against the captains listed, and home/away and facility come from the "Team 8 at Team 1" pairings; the PDF's league, season and year must match what she confirmed in step 2. **Setup 4's "Prepare the check" node has `TEST_MODE = true` for now, which skips those matches and defaults to team 1. Set it to false before a real launch.**), **5 Review and send intro emails** (`tca-setup-5-send`, marks the team `ready`; the Gmail node is ON but a `TEST_MODE = true` node sends only one copy to the tester, **set it to false before a real launch or real players get emailed**), **Weekly 4 - Send the captain the ALTA entry sheet** (lineup laid out like ALTA's page for the captain to copy and publish herself; the agent never logs in to ALTA; Gmail off). Pages 2 to 4 call **Setup helper - Check what the captain entered**, which runs `setup_core.js`. As of Nov 25, Setup 2 to 5 are published in n8n. The real browser file upload has only been tried with test data.
+- Setup flow: the captain gets an invite email with a private link, confirms league and season, then uploads a roster and a schedule (CSV or Excel). The checks are in `n8n/src/setup_core.js` (JavaScript only, tested by `tests/test_setup_import.py` with made-up files in `tests/fixtures`). Templates for the captain are in `templates/`. Data tables in n8n: **WhosOn captain invites and teams**, **WhosOn team players**, **WhosOn team matches**. Email is the first channel; nothing is sent until an inbox is connected and you approve.
 - Planner weights (move 4, newcomer 3, new pair 6, risky time limit 12, matches played 1, same side 2, ranking 2, reserve 10) are whole numbers in `WEIGHTS`, in both languages, so results match exactly. They are a first guess; tune them with a real captain.
+
+## Rules retrieval (RAG)
+- `python src/build_rulebook.py` splits ALTA's General Rules text into about 70 citable sections (`data/rulebook/sections.json`). **`data/rulebook/` is gitignored: the repo is public, so never commit ALTA's rulebook text.** Source text: `osascript -l JavaScript src/pdf_text.jxa.js /full/path/rules.pdf > data/rulebook/general_rules_fall2026.txt`.
+- `src/rules_search.py` (keyword search, no embeddings) with a JavaScript copy in `n8n/src/search_core.js`. The n8n Code nodes in "WhosOn Rules 2" hold a hand-pasted compact copy (not built by `build_nodes.py`): change all together.
+- First-run score: right section in the top 4 for 23/24 questions (`data/rules_questions.json`) and 9/10 unseen ones (`data/rules_questions_heldout.json`; top 1: 6/10). `python evals/score_rules_search.py`. Known miss: "two lines in the same match day" (I.B).
+- n8n: **WhosOn Rules 1 - Load the rulebook** (upload `sections.json` once) and **WhosOn Rules 2 - Ask the ALTA rules** (Claude Haiku answers only from retrieved sections; code rejects bad citations). Table **WhosOn rulebook sections** holds only III.E, III.F and IV.G until the file is uploaded. Both unpublished.
+
+## Landing page
+- **Product name (Nov 25, "for now"): WhosOn**, formerly Tennis Captain Agent. Not cleared for trademark (Parker Software owns a WHOSON mark) or domain. GitHub repo is kimmymallanda/WhosOn. Unchanged on purpose: local folder, agent Gmail address, and `tca-` form/webhook paths.
+- `site/index.html`: flashy front page; the visitor picks ALTA (beta), USTA or Custom League incl. pickleball (both waitlist only, not built). `site/join.html?league=alta|usta|custom`: detail page and email signup.
+- **Messaging priority (captain's call):** the headline benefit is ending the 50-text chase to confirm availability ("Messy replies, sorted"). Lineups and rules are secondary.
+- Signup posts to n8n **WhosOn Website - Beta signup** (table **WhosOn beta signups**; `source` records the league; one test row, test.signup@example.com). The workflow is unpublished and the pages are not hosted yet.
 
 ## Course plan
 | Week | Dates | Build | Gate |

@@ -1,4 +1,4 @@
-# Build the MVP: Tennis Captain Agent (the "9pm drop" demo)
+# Build the MVP: WhosOn (the "9pm drop" demo)
 
 Read `CLAUDE.md` first. It has the architecture, design rules, data files and targets.
 This prompt narrows that plan to a demo-able MVP.

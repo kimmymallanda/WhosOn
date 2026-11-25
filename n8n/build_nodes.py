@@ -214,6 +214,59 @@ def build() -> dict:
         + "}\n"
         + "return out;\n"
     )
+    # ---- setup flow nodes (JavaScript only; tested by tests/test_setup_import.py)
+    alta = rc.load_json("alta_leagues.json")
+    leagues_js = "const LEAGUES = {\n" + ",\n".join(f"  {json.dumps(k)}: {json.dumps(v)}" for k, v in alta["leagues"].items()) + "\n};\n"
+    setup_header = leagues_js + f"const LEVELS = {json.dumps({'flights': alta['levels']['flights']})};\n\n"
+    setup_core = (HERE / "src" / "setup_core.js").read_text(encoding="utf-8")
+    emails_core = (HERE / "src" / "emails_core.js").read_text(encoding="utf-8")
+    setup_checks_node = (
+        BANNER
+        + "// Node: Check the league, roster or schedule. Input item: { kind: 'league' | 'roster' | 'schedule', ...details }.\n"
+        + "//   league:   { league, season, level_flight? }\n"
+        + "//   roster:   { rows: [spreadsheet rows], league, roster_min }\n"
+        + "//   schedule: { rows: [spreadsheet rows], league, year }\n"
+        + "// Always returns { kind, ok, ... } plus the problems found (errors block, warnings do not).\n"
+        + setup_header + setup_core
+        + "\nconst item = $input.first().json;\n"
+        + "let result;\n"
+        + "if (item.kind === 'league') result = leagueCheck(item.league, item.season, item.level_flight);\n"
+        + "else if (item.kind === 'roster') result = checkRoster(item.rows || [], item);\n"
+        + "else if (item.kind === 'schedule') result = checkSchedule(item.rows || [], item);\n"
+        + "else result = { ok: false, error: `Unknown check \"${item.kind}\".` };\n"
+        + "const ok = result.ok !== undefined ? result.ok : result.summary.ok;\n"
+        + "return [{ json: { kind: item.kind, team_id: item.team_id || null, ...result, ok } }];\n"
+    )
+    invite_node = (
+        BANNER
+        + "// Node: Write the invite email. Input item: { captain_name, captain_email, base_url }. Output: the invite (link, expiry, email text).\n"
+        + "// Makes a private team_id for the link. Nothing is sent here.\n"
+        + emails_core
+        + "\nfunction randomId() {\n"
+        + "  try { return require('crypto').randomBytes(18).toString('hex'); } catch (e) { /* not available here */ }\n"
+        + "  try { return crypto.randomUUID().replace(/-/g, '') + crypto.randomUUID().replace(/-/g, '').slice(0, 4); } catch (e) { /* not available here */ }\n"
+        + "  return Array.from({ length: 36 }, () => Math.floor(Math.random() * 16).toString(16)).join('');\n"
+        + "}\n"
+        + "const input = $input.first().json;\n"
+        + "const invite = makeInvite({ ...input, form_path: 'tca-setup-2-league', team_id: input.team_id || randomId(), now_iso: input.now_iso || new Date().toISOString() });\n"
+        + "return [{ json: invite }];\n"
+    )
+    intro_node = (
+        BANNER
+        + "// Node: Write the players' intro emails. Input item: { captain_name, league, season, players: [{ name, email }] }. One output item per player.\n"
+        + "// Nothing is sent here.\n"
+        + emails_core
+        + "\nconst a = $input.first().json;\n"
+        + "return makeIntroEmails(a).map((e) => ({ json: e }));\n"
+    )
+    entry_node = (
+        BANNER
+        + "// Node: Write the lineup entry sheet. Input item: { captain_name, captain_email, league, season, year, level_flight, week, date, home_away, opponent, facility, start_times, lineup: [[nameA, nameB] x lines], line_times?, comment?, reasons? }.\n"
+        + "// Nothing is sent here, and nothing is ever sent to ALTA.\n"
+        + emails_core
+        + "\nconst a = $input.first().json;\n"
+        + "return [{ json: { to: a.captain_email, ...makeEntrySheet(a) } }];\n"
+    )
     cases_file = js({"lineups": cases, "planner_cases": pcases, "expected": expected(roster, cfg, hist)}) + "\n"
     return {
         "nodes/rules_checker.js": rules_node,
@@ -222,6 +275,10 @@ def build() -> dict:
         "nodes/lineup_planner.js": planner_node,
         "nodes/planner_scenarios.js": scenarios_node,
         "nodes/options_to_check.js": verify_node,
+        "nodes/setup_checks.js": setup_checks_node,
+        "nodes/invite_email.js": invite_node,
+        "nodes/intro_emails.js": intro_node,
+        "nodes/entry_sheet.js": entry_node,
         "checker_cases.json": cases_file,
     }
 

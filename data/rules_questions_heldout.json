@@ -1,0 +1,12 @@
+[
+ {"q": "Our opponents never showed up. When can we call it a default?", "expect": ["IV.E", "Glossary: Default"]},
+ {"q": "Can a 17 year old play on our team?", "expect": ["I.A"]},
+ {"q": "The home courts are unavailable, now what?", "expect": ["IV.J"]},
+ {"q": "Do we get an umpire?", "expect": ["IV.B"]},
+ {"q": "By when do we have to make up a rained out match?", "expect": ["VI.C", "League format", "Final week makeups"]},
+ {"q": "Who has to be at the court to exchange the lineup?", "expect": ["III.B"]},
+ {"q": "Our captains disagree about which court plays first", "expect": ["III.C", "III.D"]},
+ {"q": "How many courts does a home facility need?", "expect": ["I.C"]},
+ {"q": "What happens if our team defaults too much?", "expect": ["V.D", "V.E"]},
+ {"q": "Can a player be taken off the roster?", "expect": ["I.G"]}
+]

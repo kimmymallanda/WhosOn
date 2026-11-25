@@ -1,5 +1,6 @@
 {
   "_source": "ALTA General Rules Adult Leagues, Fall 2026 (last revised Spring 2026): League-Specific Rules (pp. 8-11), Teams and Players I.E (roster minimums).",
+  "_seasons_source": "From the League-Specific Rules tables (pp. 8-11) and I.B, ALTA General Rules Adult Leagues, Fall 2026. Regular season is weeks 1-6, with week 7 for weather make-ups.",
   "_how_lines_start": "Lines play two per start slot. Lines 1-2 start at start_times[0], lines 3-4 at start_times[1], line 5 at start_times[2]. A later slot starts as listed or when a court is free, so a listed time is the earliest start. A line can take 1 to 3 hours (captain's note), so a later line can start late.",
   "_not_covered": "Wheelchair and Run/Roll leagues are not in the documents. Mixed Doubles line composition (which lines are men's, women's or mixed) is not stated in the documents, so line_kinds is null for it.",
   "leagues": {
@@ -12,7 +13,11 @@
         "11:00"
       ],
       "roster_min": 12,
-      "line_kinds": null
+      "line_kinds": null,
+      "seasons": [
+        "Spring",
+        "Fall"
+      ]
     },
     "Sunday Women": {
       "lines": 5,
@@ -23,7 +28,11 @@
         "15:00"
       ],
       "roster_min": 12,
-      "line_kinds": null
+      "line_kinds": null,
+      "seasons": [
+        "Spring",
+        "Fall"
+      ]
     },
     "Thursday Women": {
       "lines": 5,
@@ -34,7 +43,11 @@
         "11:30"
       ],
       "roster_min": 12,
-      "line_kinds": null
+      "line_kinds": null,
+      "seasons": [
+        "Spring",
+        "Fall"
+      ]
     },
     "Mixed Doubles (Winter)": {
       "lines": 5,
@@ -45,7 +58,10 @@
         "15:00"
       ],
       "roster_min": 12,
-      "line_kinds": null
+      "line_kinds": null,
+      "seasons": [
+        "Winter"
+      ]
     },
     "Mixed Doubles (Summer)": {
       "lines": 5,
@@ -56,7 +72,10 @@
         "11:00"
       ],
       "roster_min": 12,
-      "line_kinds": null
+      "line_kinds": null,
+      "seasons": [
+        "Summer"
+      ]
     },
     "Senior Men": {
       "lines": 4,
@@ -66,7 +85,10 @@
         "19:30"
       ],
       "roster_min": 10,
-      "line_kinds": null
+      "line_kinds": null,
+      "seasons": [
+        "Summer"
+      ]
     },
     "Senior Women": {
       "lines": 4,
@@ -76,7 +98,10 @@
         "19:30"
       ],
       "roster_min": 10,
-      "line_kinds": null
+      "line_kinds": null,
+      "seasons": [
+        "Summer"
+      ]
     },
     "Senior Mixed": {
       "lines": 4,
@@ -91,6 +116,9 @@
         "women",
         "mixed",
         "mixed"
+      ],
+      "seasons": [
+        "Winter"
       ]
     },
     "Senior Day Men": {
@@ -101,7 +129,11 @@
         "11:00"
       ],
       "roster_min": 8,
-      "line_kinds": null
+      "line_kinds": null,
+      "seasons": [
+        "Spring",
+        "Fall"
+      ]
     },
     "Senior Day Women": {
       "lines": 3,
@@ -111,7 +143,11 @@
         "11:00"
       ],
       "roster_min": 8,
-      "line_kinds": null
+      "line_kinds": null,
+      "seasons": [
+        "Spring",
+        "Fall"
+      ]
     }
   },
   "levels": {
