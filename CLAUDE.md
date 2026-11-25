@@ -74,7 +74,7 @@ n8n Cloud cannot run the Python modules, so the rules and time-fit logic also ex
 - n8n: **WhosOn Rules 1 - Load the rulebook** (upload `sections.json` once) and **WhosOn Rules 2 - Ask the ALTA rules** (Claude Haiku answers only from retrieved sections; code rejects bad citations). Table **WhosOn rulebook sections** holds only III.E, III.F and IV.G until the file is uploaded. Both unpublished.
 
 ## Landing page
-- **Product name (Nov 25, "for now"): WhosOn**, formerly Tennis Captain Agent. Not cleared for trademark (Parker Software owns a WHOSON mark) or domain. Unchanged on purpose: local folder, GitHub repo name, agent Gmail address, and `tca-` form/webhook paths.
+- **Product name (Nov 25, "for now"): WhosOn**, formerly Tennis Captain Agent. Not cleared for trademark (Parker Software owns a WHOSON mark) or domain. GitHub repo is kimmymallanda/WhosOn. Unchanged on purpose: local folder, agent Gmail address, and `tca-` form/webhook paths.
 - `site/index.html`: flashy front page; the visitor picks ALTA (beta), USTA or Custom League incl. pickleball (both waitlist only, not built). `site/join.html?league=alta|usta|custom`: detail page and email signup.
 - **Messaging priority (captain's call):** the headline benefit is ending the 50-text chase to confirm availability ("Messy replies, sorted"). Lineups and rules are secondary.
 - Signup posts to n8n **WhosOn Website - Beta signup** (table **WhosOn beta signups**; `source` records the league; one test row, test.signup@example.com). The workflow is unpublished and the pages are not hosted yet.
